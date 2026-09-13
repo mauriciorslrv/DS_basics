@@ -1,92 +1,66 @@
 <div align="center">
   <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Python and Data Science Banner" width="100%" />
 
-  <h3 align="center">Python & Data Science – Material de Aprendizaje</h3>
-
-  <p align="center">
-    Recursos educativos y ejercicios prácticos para fortalecer conocimientos en Python y Ciencia de Datos.<br/>
-    Incluye notebooks interactivas, ejemplos de código y material complementario para aprender y practicar.
-  </p>
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python Badge" />
-    <img src="https://img.shields.io/badge/Google-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Google Colab Badge" />
-    <img src="https://img.shields.io/badge/Data%20Science-Notebook-orange" alt="Data Science Badge" />
-  </p>
+  <h2>Fundamentals of Data Science</h2>
+  <p><strong>Python · Estadística · Machine Learning · práctica con notebooks</strong></p>
+  <p>Una colección de materiales para aprender haciendo: entender el concepto, ejecutar el código, modificarlo y conectarlo con problemas reales.</p>
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 🧭 ¿Qué encontrarás aquí?
 
-* 👋 [Introducción](#introducción)
-* 🎯 [Objetivo](#objetivo)
-* 📂 [Contenido](#contenido)
-* 🛠️ [Requisitos](#requisitos)
-* 🚀 [Uso de las notebooks](#uso-de-las-notebooks)
-* ✅ [Nota final](#nota-final)
+El repositorio está organizado como una ruta progresiva. Cada módulo contiene notebooks y, a partir de esta versión, una carpeta de <strong>guías en Markdown</strong> que resume qué se estudia, por qué importa y dónde puede aparecer en un problema real.
 
----
+> Las guías acompañan a las notebooks; no las sustituyen. La idea es que puedas orientarte rápido y después experimentar directamente con el código.
 
-## 👋 Introducción
-
-Este repositorio reúne **material educativo y recursos prácticos** enfocados en **programación con Python** y conceptos fundamentales de **Ciencia de Datos**.
-
-Está pensado como un espacio de aprendizaje y práctica donde estudiantes, profesionales o cualquier persona interesada en estos temas pueda explorar conceptos, ejecutar código y experimentar con diferentes herramientas y técnicas.
+| Módulo | Enfoque | Empieza aquí |
+|---|---|---|
+| 🐍 01 · Programación en Python | Lenguaje, estructuras, funciones, NumPy, Pandas y visualización | [Ver módulo](./01%20Programación%20en%20Python/README.md) |
+| 📊 02 · Análisis Estadístico de Datos | Estadística descriptiva, probabilidad, hipótesis, Monte Carlo y obtención de datos | [Ver módulo](./02%20Análisis%20Estadístico%20de%20Datos/README.md) |
+| 🧠 03 · Aprendizaje Máquina | Del perceptrón a redes neuronales; módulo en expansión | [Ver módulo](./03%20Aprendizaje%20Máquina/README.md) |
 
 ---
 
-## 🎯 Objetivo
+## 🔁 Cómo usar este material
 
-El objetivo de este repositorio es proporcionar recursos que permitan:
+1. **Lee la guía** del subtema para obtener el mapa general.
+2. **Abre la notebook** y ejecuta las celdas en orden.
+3. **Modifica valores y ejemplos**; evita usar la notebook como una receta cerrada.
+4. **Haz el mini reto** sugerido en la guía.
+5. Pregúntate: **¿qué decisión o problema real podría resolver con esto?**
 
-* Reforzar conceptos fundamentales de programación con **Python**.
-* Practicar mediante notebooks interactivas en **Google Colab**.
-* Explorar herramientas para la manipulación, análisis y visualización de datos.
-* Introducir conceptos básicos de estadística y aprendizaje automático.
-* Fomentar el aprendizaje práctico mediante ejemplos y experimentación con código.
+```text
+concepto → notebook → experimento → interpretación → aplicación
+```
 
 ---
 
-## 📂 Contenido
+## 🧩 Filosofía del repositorio
 
-Los materiales se encuentran organizados en notebooks que cubren temas como:
+El objetivo no es memorizar sintaxis ni acumular algoritmos. Es desarrollar una forma de trabajo:
 
-* Fundamentos de Python
-* Manipulación y análisis de datos
-* Visualización de datos
-* Conceptos básicos de estadística aplicada
-* Introducción al aprendizaje automático
+- formular mejores preguntas;
+- ordenar información;
+- analizar con criterio;
+- comunicar lo encontrado;
+- construir soluciones reproducibles;
+- reconocer las limitaciones de los datos y de los modelos.
 
-Cada notebook incluye explicaciones, ejemplos prácticos y código que puedes modificar y ejecutar para experimentar con los conceptos presentados.
+Los ejemplos aplicados que aparecen en las guías son **conexiones pedagógicas**: sirven para imaginar usos posibles sin afirmar que cada caso esté implementado dentro de la notebook original.
+
+---
+
+## 🚧 En evolución
+
+El módulo de **Aprendizaje Máquina** está deliberadamente en construcción. La ruta actual comienza con el perceptrón y la transición hacia redes neuronales; se irá ampliando con más ejemplos, modelos clásicos, evaluación, preparación de datos y proyectos completos.
 
 ---
 
 ## 🛠️ Requisitos
 
-Dependiendo del contenido de cada notebook, puede ser útil contar con conocimientos básicos de:
-
-* Programación estructurada
-* Python
-* Álgebra lineal
-* Probabilidad y estadística
-
-> 💡 No es necesario dominar todos estos temas antes de comenzar. Las notebooks están pensadas también como recursos de práctica y consulta durante el proceso de aprendizaje.
+Las notebooks utilizan Python 3 y librerías comunes del ecosistema científico. Puedes trabajar localmente con Jupyter o utilizar Google Colab cuando sea conveniente. No es necesario dominar todos los temas antes de comenzar: el repositorio también funciona como material de consulta y práctica.
 
 ---
 
-## 🚀 Uso de las notebooks
-
-1. Selecciona la notebook que quieras explorar.
-2. Ábrela directamente en **Google Colab** utilizando el enlace correspondiente.
-3. Ejecuta las celdas de código y revisa los ejemplos.
-4. Modifica parámetros, experimenta con el código y prueba diferentes soluciones.
-5. Utiliza los ejercicios como práctica para reforzar los conceptos.
-
----
-
-## ✅ Nota final
-
-Este repositorio funciona como una colección de **recursos educativos y ejercicios prácticos desarrollados para apoyar el aprendizaje de Python y Ciencia de Datos**.
-
-El contenido puede utilizarse como material de estudio, referencia o práctica independiente, y continuará evolucionando conforme se incorporen nuevos ejemplos, ejercicios y temas.
+<p align="center"><strong>Aprender datos es aprender a convertir preguntas en evidencia.</strong></p>
