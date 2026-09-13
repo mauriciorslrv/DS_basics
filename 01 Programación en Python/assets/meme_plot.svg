@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Meme educativo sobre visualización</title>
+  <desc id="desc">Una tarjeta educativa que recuerda que una gráfica bonita no necesariamente es útil.</desc>
+  <rect width="900" height="260" rx="24" fill="#f7f7f7"/>
+  <rect x="18" y="18" width="864" height="224" rx="18" fill="white" stroke="#222" stroke-width="3"/>
+  <text x="450" y="84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#111">Bonita ≠ útil</text>
+  <text x="450" y="143" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#333">¿Qué pregunta responde esta gráfica?</text>
+  <text x="450" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#555">Pregunta → gráfico → patrón → interpretación</text>
+</svg>
