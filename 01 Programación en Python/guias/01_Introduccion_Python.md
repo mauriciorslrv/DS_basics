@@ -1,48 +1,58 @@
-# 01 · Introducción a la programación con Python
+# 01 · Python desde cero
 
-> **En una frase:** aprender a representar información y aplicar operaciones básicas antes de construir análisis más complejos.
+> **En una frase:** aprender a representar una idea sencilla como información, operaciones e instrucciones que Python pueda ejecutar.
 
-📓 [Abrir notebook](../notebooks/Introduccion_a_la_programacion_con_Python.ipynb)
+📓 [Abrir notebook](../notebooks/01_Python_desde_cero.ipynb)
 
 ## 🧭 Qué cubre la notebook
 
-La notebook parte de la ejecución básica en Python y Jupyter (`print`, comentarios) y construye el vocabulario inicial del lenguaje:
+La notebook asume poca o ninguna experiencia previa. Comienza explicando cómo usar una notebook y después introduce:
 
-- variables y `type()`;
-- `int`, `float`, `bool`, `str` y números complejos;
-- operadores aritméticos, de comparación, asignación y lógicos;
-- listas: índices, slicing, actualización, `append`, `del`, pertenencia y copias;
-- diccionarios: pares clave–valor, edición, eliminación y estructuras relacionadas.
+- celdas de texto y de código;
+- comentarios con `#` y `print()`;
+- operaciones aritméticas y prioridad con paréntesis;
+- variables y nombres descriptivos;
+- tipos básicos: `int`, `float`, `str` y `bool`;
+- conversión de tipos;
+- strings y f-strings;
+- listas, índices y slicing;
+- diccionarios y acceso por clave;
+- combinación de información para resolver un problema pequeño completo.
 
-## 🧩 Mapa mental
+## 🧠 Idea central
 
 ```text
-dato → variable → tipo → operación → estructura → decisión
+pregunta → datos → operaciones → resultado → comunicación
 ```
 
-Una variable guarda un valor; el tipo determina qué operaciones tienen sentido; listas y diccionarios permiten organizar más de un valor de manera útil.
+Programar no empieza memorizando sintaxis. Empieza entendiendo **qué información tienes, qué quieres obtener y qué pasos conectan ambas cosas**.
 
 ## 🌍 Conexiones aplicadas
 
-> Estos ejemplos son conexiones pedagógicas, no casos adicionales implementados en la notebook.
-
-- **Negocio:** `ventas_mes`, `margen`, `cliente_activo` son variables con tipos distintos.
-- **Datos:** una lista puede representar un lote de mediciones o identificadores.
-- **Sistemas:** un diccionario puede representar un cliente, producto o configuración: `{"id": 42, "segmento": "A", "activo": True}`.
-- **Reglas:** operadores lógicos permiten expresar condiciones como “cliente activo **y** saldo mayor a cero”.
+- **Negocio:** precio, cantidad, descuento, inventario o estado de un cliente.
+- **Datos:** listas de observaciones, mediciones o resultados.
+- **APIs y configuraciones:** diccionarios con pares `clave: valor`.
+- **Automatización:** transformar un cálculo manual en instrucciones repetibles.
 
 ## ✅ Al terminar deberías poder
 
-- distinguir los tipos básicos;
-- elegir entre lista y diccionario para un problema sencillo;
-- acceder y modificar elementos;
-- combinar comparaciones con lógica booleana;
-- leer expresiones básicas de Python sin tratarlas como magia.
+- ejecutar y modificar celdas con confianza;
+- distinguir los tipos básicos de Python;
+- elegir nombres de variables legibles;
+- trabajar con texto, listas y diccionarios;
+- interpretar errores sencillos de conversión;
+- convertir un problema pequeño en datos, operaciones y una salida comprensible.
 
 ## 🧪 Mini reto
 
-Representa tres productos con nombre, precio y disponibilidad. Calcula el precio promedio y crea una condición que indique cuáles están disponibles y cuestan menos que un límite elegido por ti.
+Representa un experimento con un diccionario que incluya nombre, número de observaciones y costo por observación. Calcula el costo total y comunícalo con una f-string.
+
+## 📚 Para consultar
+
+- [Tutorial oficial de Python](https://docs.python.org/es/3/tutorial/)
+- [Tipos incorporados de Python](https://docs.python.org/es/3/library/stdtypes.html)
+- [PEP 8 — guía de estilo](https://peps.python.org/pep-0008/)
 
 ## 🔗 Sigue con
 
-[02 · Bases para usar Python](./02_Bases_Python.md)
+[02 · Pensar con Python](./02_Bases_Python.md)
