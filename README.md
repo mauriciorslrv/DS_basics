@@ -10,13 +10,13 @@
 
 ## 🧭 ¿Qué encontrarás aquí?
 
-El repositorio está organizado como una ruta progresiva. Cada módulo contiene notebooks y, a partir de esta versión, una carpeta de <strong>guías en Markdown</strong> que resume qué se estudia, por qué importa y dónde puede aparecer en un problema real.
+El repositorio está organizado como una ruta progresiva. Cada módulo contiene notebooks y guías en Markdown que resumen qué se estudia, por qué importa y dónde puede aparecer en un problema real.
 
 > Las guías acompañan a las notebooks; no las sustituyen. La idea es que puedas orientarte rápido y después experimentar directamente con el código.
 
 | Módulo | Enfoque | Empieza aquí |
 |---|---|---|
-| 🐍 01 · Programación en Python | Lenguaje, estructuras, funciones, NumPy, Pandas y visualización | [Ver módulo](./01%20Programación%20en%20Python/README.md) |
+| 🐍 01 · Programación en Python | Desde cero hasta NumPy, Pandas y visualización con una ruta guiada de seis notebooks | [Ver módulo](./01%20Programación%20en%20Python/README.md) |
 | 📊 02 · Análisis Estadístico de Datos | Estadística descriptiva, probabilidad, hipótesis, Monte Carlo y obtención de datos | [Ver módulo](./02%20Análisis%20Estadístico%20de%20Datos/README.md) |
 | 🧠 03 · Aprendizaje Máquina | Del perceptrón a redes neuronales; módulo en expansión | [Ver módulo](./03%20Aprendizaje%20Máquina/README.md) |
 
@@ -27,7 +27,7 @@ El repositorio está organizado como una ruta progresiva. Cada módulo contiene 
 1. **Lee la guía** del subtema para obtener el mapa general.
 2. **Abre la notebook** y ejecuta las celdas en orden.
 3. **Modifica valores y ejemplos**; evita usar la notebook como una receta cerrada.
-4. **Haz el mini reto** sugerido en la guía.
+4. **Haz el mini reto** sugerido en el material.
 5. Pregúntate: **¿qué decisión o problema real podría resolver con esto?**
 
 ```text
@@ -47,7 +47,7 @@ El objetivo no es memorizar sintaxis ni acumular algoritmos. Es desarrollar una 
 - construir soluciones reproducibles;
 - reconocer las limitaciones de los datos y de los modelos.
 
-Los ejemplos aplicados que aparecen en las guías son **conexiones pedagógicas**: sirven para imaginar usos posibles sin afirmar que cada caso esté implementado dentro de la notebook original.
+Los ejemplos aplicados que aparecen en las guías son **conexiones pedagógicas**: sirven para imaginar usos posibles sin afirmar que cada caso esté implementado dentro de la notebook.
 
 ---
 
