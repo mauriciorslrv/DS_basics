@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Meme educativo sobre inspección de datos</title>
+  <desc id="desc">Una tarjeta humorística que recuerda inspeccionar un DataFrame antes de transformarlo.</desc>
+  <rect width="900" height="260" rx="24" fill="#f7f7f7"/>
+  <rect x="18" y="18" width="864" height="224" rx="18" fill="white" stroke="#222" stroke-width="3"/>
+  <text x="450" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#111">Antes de “limpiar todo”</text>
+  <text x="450" y="138" text-anchor="middle" font-family="monospace" font-size="36" font-weight="700" fill="#111">df.head()  ·  df.info()</text>
+  <text x="450" y="194" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#444">Primero mira qué llegó. Luego decides qué hacer.</text>
+</svg>
