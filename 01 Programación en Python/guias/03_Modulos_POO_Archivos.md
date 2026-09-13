@@ -1,40 +1,64 @@
-# 03 · Módulos, Programación Orientada a Objetos y archivos
+# 03 · Código reutilizable
 
-> **En una frase:** organizar código para reutilizarlo y representar entidades con comportamiento propio.
+> **En una frase:** aprender a separar responsabilidades para que el código sea más fácil de leer, reutilizar y depurar.
 
-📓 [Abrir notebook](../notebooks/Modulos_y_Programacion_Orientada_a_Objetos.ipynb)
+📓 [Abrir notebook](../notebooks/03_Codigo_reutilizable.ipynb)
 
 ## 🧭 Qué cubre la notebook
 
-La notebook conecta varias ideas que aparecen cuando un script empieza a crecer:
+- transformar una operación repetida en una función clara;
+- diferencia práctica entre **instalar** una librería e **importarla**;
+- crear e importar un módulo propio `.py`;
+- importar definiciones concretas y evitar `from modulo import *`;
+- trabajar con rutas mediante `pathlib.Path`;
+- escribir y leer archivos de texto;
+- convertir texto leído desde un archivo en datos utilizables;
+- interpretar errores como información para depurar;
+- usar `try/except` para fallas esperables;
+- comprender atributos, métodos, clases e instancias sin convertir POO en el centro del módulo;
+- organizar un pequeño flujo en funciones con responsabilidades separadas.
 
-- módulos incluidos y módulos propios;
-- ejemplos con `random` y `math`;
-- importaciones, alias y consulta de ayuda/documentación;
-- clases, objetos e instancias;
-- variables de clase e instancia, `__init__` y métodos;
-- ejemplos como `Circle` y `Rectangle`;
-- herencia;
-- operaciones con conjuntos: unión, intersección, subconjuntos, diferencia y diferencia simétrica;
-- lectura y escritura de archivos con `open` y `with open(...)`;
-- ejemplo posterior de lectura de PDF mediante PyPDF2.
+## 🧠 Idea central
+
+```text
+problema grande
+   ↓
+responsabilidades pequeñas
+   ↓
+funciones / módulos / objetos cuando aportan claridad
+```
+
+La estructura no es un objetivo por sí misma. Sirve cuando reduce repetición, hace explícitas las responsabilidades o permite reutilizar lógica.
 
 ## 🌍 Conexiones aplicadas
 
-- **Módulos:** separar limpieza, visualización y utilidades en archivos reutilizables.
-- **Objetos:** representar clientes, productos, experimentos o modelos con atributos y métodos.
-- **Herencia:** crear variantes especializadas sin duplicar toda la lógica común.
-- **Conjuntos:** cruzar segmentos, permisos o grupos de registros.
-- **Archivos:** incorporar reportes, logs o documentos a un flujo de datos.
+- **Proyectos de datos:** separar carga, limpieza, transformación y análisis.
+- **Automatización:** reutilizar funciones en varios scripts.
+- **Archivos:** incorporar mediciones, configuraciones o resultados guardados.
+- **Librerías:** entender expresiones como `df.head()` o `modelo.fit()` como llamadas a métodos de objetos.
+- **Depuración:** responder de forma controlada a entradas inválidas o archivos con problemas esperables.
 
-## 💡 Señal de madurez
+## ✅ Al terminar deberías poder
 
-Si copias la misma función en tres notebooks, probablemente ya vale la pena convertirla en un módulo. Si varias entidades comparten atributos y comportamiento, quizá una clase ayude. Ninguna herramienta debe usarse sólo “porque existe”: la estructura debe simplificar el problema.
+- reconocer cuándo una función mejora la claridad;
+- crear e importar un módulo sencillo;
+- distinguir instalar de importar;
+- leer y escribir archivos de texto;
+- usar `try/except` con intención y no para esconder errores;
+- diferenciar atributo y método;
+- leer una clase pequeña sin necesitar dominar toda la programación orientada a objetos.
 
 ## 🧪 Mini reto
 
-Crea una clase `Producto` con nombre, precio y categoría. Añade un método para aplicar un descuento. Después guarda un pequeño resumen de varios productos en un archivo de texto.
+Crea una clase `Sensor` con un nombre y una lista de mediciones. Añade un método que devuelva la medición máxima y prueba el objeto con varias observaciones.
+
+## 📚 Para consultar
+
+- [Módulos en Python](https://docs.python.org/es/3/tutorial/modules.html)
+- [Errores y excepciones](https://docs.python.org/es/3/tutorial/errors.html)
+- [Clases en Python](https://docs.python.org/es/3/tutorial/classes.html)
+- [`pathlib`](https://docs.python.org/es/3/library/pathlib.html)
 
 ## 🔗 Sigue con
 
-[04 · NumPy](./04_NumPy.md)
+[04 · NumPy: pensar en arreglos](./04_NumPy.md)
