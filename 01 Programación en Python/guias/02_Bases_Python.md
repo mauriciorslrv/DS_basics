@@ -1,50 +1,58 @@
-# 02 · Las bases para usar Python
+# 02 · Pensar con Python
 
-> **En una frase:** pasar de guardar datos a controlar el flujo de un programa y reutilizar lógica.
+> **En una frase:** pasar de guardar información a tomar decisiones, repetir tareas y encapsular lógica reutilizable.
 
-📓 [Abrir notebook](../notebooks/Las_bases_para_usar_Python.ipynb)
+📓 [Abrir notebook](../notebooks/02_Pensar_con_Python.ipynb)
 
 ## 🧭 Qué cubre la notebook
 
-- **Sets:** colecciones de valores únicos, alta/baja de elementos y pertenencia.
-- **Tuplas:** secuencias ordenadas e inmutables.
-- **Condicionales:** `if`, `elif`, `else`.
-- **Ciclos:** `while`, `break`, `for`, `range`, `enumerate`, iteración sobre listas y diccionarios.
-- **Funciones:** argumentos, `return`, docstrings, valores por defecto, variables globales y `lambda`.
+- comparaciones que producen `True` o `False`;
+- condiciones con `if`, `elif` y `else`;
+- operadores lógicos `and`, `or` y `not`;
+- indentación y bloques de código;
+- ciclos `for`;
+- `range()` para controlar repeticiones;
+- ciclos `while` y condiciones de salida;
+- funciones, parámetros, valores por defecto y `return`;
+- tuplas cuando queremos una secuencia estable;
+- conjuntos (`set`) cuando nos importan valores únicos;
+- una primera lectura de *list comprehensions* después de entender el `for` tradicional.
 
 ## 🧠 Idea central
 
 ```text
-entrada
-  ↓
-condición ──→ decisión
-  ↓
-ciclo ─────→ repetición
-  ↓
-función ───→ lógica reutilizable
+representar datos → aplicar reglas → repetir procesos → resumir resultados
 ```
 
-Éste es el punto donde Python deja de ser una calculadora y empieza a convertirse en una herramienta para automatizar procesos.
+Un programa no “piensa” como una persona. Evalúa condiciones y sigue rutas que nosotros definimos.
 
 ## 🌍 Conexiones aplicadas
 
-- **Sets:** eliminar IDs duplicados o comparar grupos de usuarios.
-- **Tuplas:** guardar coordenadas o configuraciones que no deberían cambiar durante una operación.
-- **Condicionales:** validar un dato, asignar una categoría o activar una regla de negocio.
-- **Ciclos:** procesar muchos archivos, clientes o mediciones.
-- **Funciones:** encapsular una transformación para usarla cientos de veces sin repetir código.
+- **Validación:** aceptar o rechazar registros según una regla.
+- **Clasificación:** asignar etiquetas según umbrales.
+- **Procesamiento:** aplicar una operación a muchas mediciones o transacciones.
+- **Automatización:** repetir un proceso hasta que se cumpla una condición.
+- **Reutilización:** convertir una transformación repetida en una función.
 
 ## ✅ Al terminar deberías poder
 
-- controlar qué parte del código se ejecuta;
-- repetir tareas de forma segura;
+- construir una condición legible;
+- entender por qué la indentación cambia el comportamiento del programa;
+- elegir entre `for` y `while`;
 - escribir funciones pequeñas con entradas y salidas claras;
-- reconocer cuándo una colección necesita unicidad o inmutabilidad.
+- reconocer para qué sirven tuplas y conjuntos;
+- seguir el flujo de un programa sin ejecutar mentalmente cada línea como una instrucción aislada.
 
 ## 🧪 Mini reto
 
-Crea una lista de transacciones con montos. Escribe una función que reciba un monto y lo clasifique como `bajo`, `medio` o `alto`. Recorre la lista y guarda las categorías obtenidas.
+Crea una función `resumir_ventas(ventas, umbral)` que reciba una lista y devuelva cuántas ventas son mayores o iguales al umbral. Después cambia el umbral y observa cómo cambia el resultado.
+
+## 📚 Para consultar
+
+- [Control de flujo en el tutorial oficial de Python](https://docs.python.org/es/3/tutorial/controlflow.html)
+- [Estructuras de datos](https://docs.python.org/es/3/tutorial/datastructures.html)
+- [Funciones incorporadas](https://docs.python.org/es/3/library/functions.html)
 
 ## 🔗 Sigue con
 
-[03 · Módulos, POO y archivos](./03_Modulos_POO_Archivos.md)
+[03 · Código reutilizable](./03_Modulos_POO_Archivos.md)
