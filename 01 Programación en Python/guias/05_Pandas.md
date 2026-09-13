@@ -1,58 +1,67 @@
-# 05 · Pandas
+# 05 · Pandas: trabajar con datos
 
-> **En una frase:** convertir datos tabulares en estructuras que podamos inspeccionar, seleccionar y preparar para análisis.
+> **En una frase:** aprender a inspeccionar, seleccionar, transformar y resumir datos tabulares con intención.
 
-📓 [Abrir notebook](../notebooks/Pandas.ipynb)
+📓 [Abrir notebook](../notebooks/05_Pandas_trabajar_con_datos.ipynb)
 
 ## 🧭 Qué cubre la notebook
 
-### Series
-- creación desde listas;
-- etiquetas personalizadas;
-- selección de valores;
-- operaciones entre Series;
-- valores únicos.
+- crear un `DataFrame` desde un diccionario;
+- diferencia básica entre `Series` y `DataFrame`;
+- inspección inicial con `shape`, columnas, `head()` e `info()`;
+- selección de columnas;
+- filtrado de filas mediante condiciones;
+- ordenamiento;
+- creación de nuevas columnas;
+- identificación de valores faltantes;
+- decisiones básicas de imputación;
+- agrupación y resumen con `groupby` y `agg`;
+- lectura de CSV con `pd.read_csv`;
+- encadenamiento de transformaciones con `assign`, `query` y `sort_values`.
 
-### DataFrames
-- creación desde diccionarios;
-- `head()` y exploración inicial;
-- columnas;
-- selección con `iloc` y `loc`;
-- slicing e indexación;
-- valores únicos.
+## 🧠 Idea central
 
-### Flujo con CSV
-- `pd.read_csv`;
-- revisión de primeras filas;
-- `shape`;
-- nombres de columnas/encabezados;
-- inspección de valores y categorías.
+```text
+inspeccionar → seleccionar → transformar → resumir → validar
+```
+
+Antes de modelar o limpiar agresivamente, conviene entender **qué representa una fila, qué significa cada columna y qué calidad tienen los datos**.
 
 ## 🌍 Conexiones aplicadas
 
-Piensa en un DataFrame como una tabla de:
+Un DataFrame puede representar:
 
 - ventas y transacciones;
 - clientes y segmentos;
-- empleados;
-- experimentos;
 - inventario;
-- resultados de una encuesta.
+- encuestas;
+- experimentos;
+- métricas de una aplicación;
+- resultados de sensores o procesos.
 
-La primera pregunta rara vez debería ser “¿qué modelo uso?”. Antes conviene saber **qué columnas existen, cuántas observaciones hay, qué categorías aparecen y qué representa cada fila**.
+`groupby` aparece cuando hacemos preguntas como: **“¿cómo cambia esta métrica entre categorías, regiones o periodos?”**
 
 ## ✅ Al terminar deberías poder
 
-- diferenciar Series y DataFrame;
-- cargar un CSV;
-- inspeccionar su forma y columnas;
-- seleccionar filas/columnas por posición o etiqueta;
-- comenzar una exploración sin modificar ciegamente los datos.
+- distinguir una `Series` de un `DataFrame`;
+- inspeccionar una tabla antes de modificarla;
+- filtrar y ordenar observaciones;
+- crear métricas derivadas;
+- reconocer valores faltantes y justificar una decisión básica sobre ellos;
+- agrupar datos y calcular resúmenes;
+- cargar un CSV y comenzar una exploración reproducible.
 
 ## 🧪 Mini reto
 
-Carga un CSV propio o público. Responde cinco preguntas sin hacer todavía Machine Learning: ¿cuántas filas hay?, ¿qué representa una fila?, ¿qué columnas hay?, ¿qué categorías se repiten?, ¿qué variable te gustaría explicar?
+Construye un DataFrame con al menos cinco observaciones y tres columnas. Filtra una condición, crea una columna nueva, agrupa por una categoría y calcula una métrica resumen.
+
+## 📚 Para consultar
+
+- [pandas — Getting started](https://pandas.pydata.org/docs/getting_started/index.html)
+- [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+- [`DataFrame.groupby`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
+- [Working with missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
 
 ## 🔗 Sigue con
 
-[06 · Visualización con Matplotlib](./06_Visualizacion_Matplotlib.md)
+[06 · Visualizar para entender](./06_Visualizacion_Matplotlib.md)
