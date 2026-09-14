@@ -1,23 +1,16 @@
 # 📘 Guías · Análisis Estadístico de Datos
 
-Usa esta carpeta como mapa conceptual y como puerta de entrada a material complementario cuando quieras profundizar más allá de las notebooks.
+Usa esta carpeta como índice conceptual del módulo. Las guías resumen **qué problema resuelve cada notebook, por qué se usan sus ejercicios y dónde profundizar**.
 
-| Guía | Enfoque |
-|---|---|
-| [01 · Fundamentos](./01_Fundamentos_Analisis_Estadistico.md) | Población, muestra, variables y descriptiva vs. inferencia |
-| [02 · Centro, dispersión y relaciones](./02_Medidas_Principales.md) | Media, mediana, variabilidad, outliers y correlación |
-| [03 · Distribuciones](./03_Distribuciones_Probabilidad.md) | Variables aleatorias, PMF/PDF/CDF y modelos probabilísticos |
-| [04 · Hipótesis](./04_Pruebas_Hipotesis.md) | H₀/H₁, p-value, efecto, intervalos y supuestos |
-| [05 · Monte Carlo](./05_MonteCarlo.md) | Trayectorias, escenarios, seeds, convergencia y riesgo |
-| [06 · Web scraping y APIs](./06_WebScraping_APIs.md) | Adquisición, validación, gráficas y decisiones reproducibles |
+| Paso | Guía | Enfoque |
+|---|---|---|
+| 01 | [Fundamentos del análisis estadístico](./01_Fundamentos_Analisis_Estadistico.md) | Población, muestra, variables y descriptiva vs. inferencial |
+| 02 | [Medidas descriptivas y relaciones](./02_Medidas_Descriptivas_y_Relaciones.md) | Centro, dispersión, outliers, forma y correlación |
+| 03 | [Distribuciones de probabilidad](./03_Distribuciones_de_Probabilidad.md) | Variables aleatorias, PMF/PDF/CDF y modelos probabilísticos |
+| 04 | [Pruebas de hipótesis](./04_Pruebas_de_Hipotesis.md) | H₀/H₁, p-value, tamaño de efecto, intervalos y supuestos |
+| 05 | [Simulación de Monte Carlo](./05_Simulacion_Monte_Carlo.md) | Proyección de escenarios, percentiles, seeds y convergencia |
+| 06 | [Web scraping y APIs](./06_Web_Scraping_y_APIs.md) | Adquisición, validación, gráficas y decisiones reproducibles |
 
-## Cómo usar estas guías
-
-1. Lee la guía antes de la notebook para entender el mapa.
-2. Ejecuta y modifica los ejercicios de la notebook.
-3. Vuelve a la guía si necesitas referencias o vocabulario.
-4. Profundiza con los enlaces externos sólo cuando el concepto lo pida.
-
-La intención es mantener las notebooks **claras y aplicadas** sin perder acceso a la teoría que deliberadamente se simplificó.
+> El recorrido principal permanece compacto; el material complementario enlazado en cada notebook permite profundizar sin convertir el módulo en un catálogo de fórmulas.
 
 ⬅️ [Volver al módulo](../README.md)

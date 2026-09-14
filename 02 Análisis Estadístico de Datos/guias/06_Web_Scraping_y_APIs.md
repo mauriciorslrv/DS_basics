@@ -2,7 +2,7 @@
 
 > **En una frase:** un análisis muchas veces empieza obteniendo, validando y estructurando la información.
 
-📓 [Abrir notebook](../notebooks/6_WebScrapping.ipynb)
+📓 [Abrir notebook](../notebooks/06_Web_Scraping_y_APIs.ipynb)
 
 ## Papel dentro del módulo
 

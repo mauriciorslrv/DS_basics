@@ -26,12 +26,12 @@ qué decisión cambia
 
 | Paso | Notebook | Pregunta que responde |
 |---|---|---|
-| 1 | [Fundamentos](./notebooks/1_Fundamentos_Analisis_Estadistico.ipynb) | ¿Qué estoy observando y qué tipo de dato es? |
-| 2 | [Centro, dispersión y relaciones](./notebooks/2_Medidas_Principales.ipynb) | ¿Qué es típico, cuánto varía y qué tan sensible es el resumen? |
-| 3 | [Distribuciones](./notebooks/3_Distribuciones_Probabilidad.ipynb) | ¿Qué resultados son posibles y qué tan plausibles son? |
-| 4 | [Pruebas de hipótesis](./notebooks/4_Pruebas_Hipotesis.ipynb) | ¿Los datos son compatibles con una afirmación? |
-| 5 | [Monte Carlo](./notebooks/5_MonteCarlo.ipynb) | ¿Qué pasa si proyecto miles de futuros posibles? |
-| 6 | [Web y APIs](./notebooks/6_WebScrapping.ipynb) | ¿Cómo obtengo información externa y la convierto en un análisis reproducible? |
+| 1 | [Fundamentos](./notebooks/01_Fundamentos_Analisis_Estadistico.ipynb) | ¿Qué estoy observando y qué tipo de dato es? |
+| 2 | [Centro, dispersión y relaciones](./notebooks/02_Medidas_Descriptivas_y_Relaciones.ipynb) | ¿Qué es típico, cuánto varía y qué tan sensible es el resumen? |
+| 3 | [Distribuciones](./notebooks/03_Distribuciones_de_Probabilidad.ipynb) | ¿Qué resultados son posibles y qué tan plausibles son? |
+| 4 | [Pruebas de hipótesis](./notebooks/04_Pruebas_de_Hipotesis.ipynb) | ¿Los datos son compatibles con una afirmación? |
+| 5 | [Monte Carlo](./notebooks/05_Simulacion_Monte_Carlo.ipynb) | ¿Qué pasa si proyecto miles de futuros posibles? |
+| 6 | [Web y APIs](./notebooks/06_Web_Scraping_y_APIs.ipynb) | ¿Cómo obtengo información externa y la convierto en un análisis reproducible? |
 
 ## 🧠 Regla del módulo
 
@@ -62,11 +62,11 @@ Esto no corrige automáticamente sesgos de datos, variables omitidas, data leaka
 ## 📚 Guías rápidas
 
 - [01 · Fundamentos](./guias/01_Fundamentos_Analisis_Estadistico.md)
-- [02 · Centro, dispersión y relaciones](./guias/02_Medidas_Principales.md)
-- [03 · Distribuciones](./guias/03_Distribuciones_Probabilidad.md)
-- [04 · Pruebas de hipótesis](./guias/04_Pruebas_Hipotesis.md)
-- [05 · Monte Carlo](./guias/05_MonteCarlo.md)
-- [06 · Web scraping y APIs](./guias/06_WebScraping_APIs.md)
+- [02 · Centro, dispersión y relaciones](./guias/02_Medidas_Descriptivas_y_Relaciones.md)
+- [03 · Distribuciones](./guias/03_Distribuciones_de_Probabilidad.md)
+- [04 · Pruebas de hipótesis](./guias/04_Pruebas_de_Hipotesis.md)
+- [05 · Monte Carlo](./guias/05_Simulacion_Monte_Carlo.md)
+- [06 · Web scraping y APIs](./guias/06_Web_Scraping_y_APIs.md)
 
 ## 📖 Biblioteca complementaria
 

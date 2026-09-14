@@ -2,7 +2,7 @@
 
 > **En una frase:** cuando una sola cifra oculta la incertidumbre, simular muchos escenarios permite ver un rango de futuros posibles.
 
-📓 [Abrir notebook](../notebooks/5_MonteCarlo.ipynb)
+📓 [Abrir notebook](../notebooks/05_Simulacion_Monte_Carlo.ipynb)
 
 ## Qué cubre
 
@@ -49,4 +49,4 @@ Varias seeds no corrigen sesgo de datos ni un modelo mal planteado.
 
 ## Sigue con
 
-[06 · Web scraping y APIs](./06_WebScraping_APIs.md)
+[06 · Web scraping y APIs](./06_Web_Scraping_y_APIs.md)
