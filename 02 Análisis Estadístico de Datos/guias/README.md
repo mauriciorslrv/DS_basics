@@ -1,6 +1,6 @@
 # 📘 Guías · Análisis Estadístico de Datos
 
-Usa esta carpeta como índice conceptual del módulo. Las guías resumen **qué problema resuelve cada notebook, por qué se usan sus ejercicios y dónde profundizar**.
+Usa esta carpeta como **mapa conceptual** y como puerta de entrada a material complementario. Las notebooks hacen el recorrido práctico; las guías resumen qué problema resuelve cada parte, por qué se usan sus ejercicios y dónde profundizar.
 
 | Paso | Guía | Enfoque |
 |---|---|---|
@@ -11,6 +11,8 @@ Usa esta carpeta como índice conceptual del módulo. Las guías resumen **qué 
 | 05 | [Simulación de Monte Carlo](./05_Simulacion_Monte_Carlo.md) | Proyección de escenarios, percentiles, seeds y convergencia |
 | 06 | [Web scraping y APIs](./06_Web_Scraping_y_APIs.md) | Adquisición, validación, gráficas y decisiones reproducibles |
 
-> El recorrido principal permanece compacto; el material complementario enlazado en cada notebook permite profundizar sin convertir el módulo en un catálogo de fórmulas.
+> **Cómo usarlo:** mapa en la guía → práctica en la notebook → interpretación/mini reto → referencia externa si quieres profundizar.
+
+> El recorrido principal permanece compacto; el material complementario enlazado permite recuperar teoría y términos sin convertir las notebooks en un catálogo de fórmulas.
 
 ⬅️ [Volver al módulo](../README.md)
