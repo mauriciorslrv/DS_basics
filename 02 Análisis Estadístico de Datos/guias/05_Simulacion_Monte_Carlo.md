@@ -8,6 +8,7 @@
 
 - idea general de Monte Carlo;
 - ejemplo breve de π;
+- **apostador de apuesta fija** para visualizar muchas trayectorias desde un mismo capital inicial;
 - **proyección de cientos/miles de trayectorias mensuales**;
 - caso principal de presupuesto anual con eventos inciertos;
 - P50, P90/P95 y probabilidad de excedencia;
