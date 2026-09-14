@@ -1,48 +1,27 @@
-# 06 · Web Scraping y APIs
+# 06 · Obtener datos desde web y APIs
 
-> **En una frase:** un análisis empieza antes del análisis: muchas veces primero necesitamos obtener la información.
+> **En una frase:** un análisis muchas veces empieza obteniendo la información.
 
 📓 [Abrir notebook](../notebooks/6_WebScrapping.ipynb)
 
-## 🧭 Qué cubre la notebook
+## Papel dentro del módulo
+Esta notebook queda explícitamente como **puente práctico de adquisición de datos**, no como núcleo de estadística.
 
-La notebook introduce:
+## Qué cubre
+- HTML y scraping;
+- APIs y JSON;
+- ejemplo reproducible con HTML local;
+- patrones de uso con `requests`;
+- validación antes del análisis;
+- legalidad, ética, términos de servicio y rate limits.
 
-- qué es web scraping;
-- flujo básico: petición HTTP → HTML → extracción → almacenamiento/procesamiento;
-- consideraciones legales y éticas: términos de servicio, copyright, datos personales y evitar sobrecargar sitios;
-- qué es una API y cómo permite comunicación entre sistemas;
-- conexión desde Python usando `requests`;
-- `requests.get(url)` y revisión del código de estado (por ejemplo, 200);
-- procesamiento de respuestas JSON mediante `response.json()`.
-
-## 🧠 Dos caminos para obtener datos
-
+## Idea central
 ```text
-WEB                              API
-página HTML                      interfaz estructurada
-   ↓                                  ↓
-petición → parseo → extracción    petición → JSON/XML → procesamiento
+web → HTML → extracción → tabla
+API → JSON/XML → validación → tabla
 ```
 
-La elección depende de la fuente, permisos y disponibilidad de una interfaz adecuada.
+Cuando existe una API oficial adecuada, suele ser más estable que depender de la estructura visual de una página.
 
-## 🌍 Conexiones aplicadas
-
-- datos públicos para investigación;
-- catálogos o precios cuando su uso esté permitido;
-- integración con servicios externos;
-- construcción periódica de datasets;
-- automatización de fuentes de información.
-
-### Buena práctica sugerida
-
-Cuando exista una API oficial adecuada, suele ser una opción más estable y explícita que extraer información de HTML. Ésta es una recomendación de diseño para proyectos futuros, no una regla universal ni una afirmación adicional de la notebook.
-
-## 🧪 Mini reto
-
-Conecta una API pública sencilla. Guarda tres campos de la respuesta JSON en un DataFrame y documenta: URL, fecha de consulta, significado de cada campo y cualquier restricción de uso que encuentres.
-
-## 🔗 Continúa
-
-Ya puedes obtener, organizar y analizar datos. Sigue con [03 · Aprendizaje Máquina](../../03%20Aprendizaje%20Máquina/README.md).
+## Continúa
+Después del módulo, sigue [03 · Aprendizaje Máquina](../../03%20Aprendizaje%20Máquina/README.md).
