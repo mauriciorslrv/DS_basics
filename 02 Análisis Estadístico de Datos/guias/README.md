@@ -1,18 +1,26 @@
 # 📘 Guías · Análisis Estadístico de Datos
 
-Usa esta carpeta como **mapa conceptual** y como puerta de entrada a material complementario. Las notebooks hacen el recorrido práctico; las guías resumen qué problema resuelve cada parte, por qué se usan sus ejercicios y dónde profundizar.
+Estas guías acompañan a las notebooks del Módulo 02. Úsalas como mapa conceptual, recordatorio de vocabulario y puerta de entrada a material complementario.
 
-| Paso | Guía | Enfoque |
-|---|---|---|
-| 01 | [Fundamentos del análisis estadístico](./01_Fundamentos_Analisis_Estadistico.md) | Población, muestra, variables y descriptiva vs. inferencial |
-| 02 | [Medidas descriptivas y relaciones](./02_Medidas_Descriptivas_y_Relaciones.md) | Centro, dispersión, outliers, forma y correlación |
-| 03 | [Distribuciones de probabilidad](./03_Distribuciones_de_Probabilidad.md) | Variables aleatorias, PMF/PDF/CDF y modelos probabilísticos |
-| 04 | [Pruebas de hipótesis](./04_Pruebas_de_Hipotesis.md) | H₀/H₁, p-value, tamaño de efecto, intervalos y supuestos |
-| 05 | [Simulación de Monte Carlo](./05_Simulacion_Monte_Carlo.md) | Proyección de escenarios, percentiles, seeds y convergencia |
-| 06 | [Web scraping y APIs](./06_Web_Scraping_y_APIs.md) | Adquisición, validación, gráficas y decisiones reproducibles |
+## Ruta
 
-> **Cómo usarlo:** mapa en la guía → práctica en la notebook → interpretación/mini reto → referencia externa si quieres profundizar.
+1. [Fundamentos del análisis estadístico](./01_Fundamentos_Analisis_Estadistico.md)
+2. [Centro, dispersión y relaciones](./02_Medidas_Descriptivas_y_Relaciones.md)
+3. [Distribuciones de probabilidad](./03_Distribuciones_de_Probabilidad.md)
+4. [Pruebas de hipótesis](./04_Pruebas_de_Hipotesis.md)
+5. [Simulación de Monte Carlo](./05_Simulacion_Monte_Carlo.md)
+6. [Web scraping y APIs](./06_Web_Scraping_y_APIs.md)
 
-> Durante la revisión del PR, las notebooks viven en `content/statistics-module-rework`; sus botones de Colab apuntan a esa rama para abrir la versión nueva. Antes del merge final se cambiarán a `main`.
+## Cómo usar este bloque
 
-⬅️ [Volver al módulo](../README.md)
+La idea no es memorizar un catálogo de fórmulas. Para cada tema intenta seguir el mismo ciclo:
+
+```text
+pregunta → intuición → cálculo/simulación → visualización → interpretación → decisión → limitaciones
+```
+
+Las notebooks contienen los ejercicios ejecutables; las guías resumen la lógica y apuntan a material adicional cuando quieras profundizar.
+
+En Monte Carlo presta atención a la diferencia entre **reproducibilidad con una seed fija**, **sensibilidad entre múltiples seeds** y **precisión al aumentar el número de simulaciones**. En la última notebook distingue también entre **scraping**, donde interpretamos HTML, y una **API**, donde accedemos mediante endpoints y parámetros documentados.
+
+⬅️ [Volver al README del módulo](../README.md)
