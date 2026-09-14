@@ -1,23 +1,35 @@
 # 01 · Fundamentos del análisis estadístico
 
-> **En una frase:** antes de calcular, define qué observas, de qué población viene y qué tipo de variable representa.
+> **En una frase:** antes de calcular, necesitamos entender qué observamos, cómo se obtuvo la muestra y qué pregunta queremos responder.
 
 📓 [Abrir notebook](../notebooks/01_Fundamentos_Analisis_Estadistico.ipynb)
 
 ## Qué cubre
-- pregunta estadística;
+
 - población, muestra, parámetro y estadístico;
 - variables nominales, ordinales, discretas y continuas;
-- diferencia entre describir e inferir;
-- ejemplo conductor con tiempos de entrega.
+- diferencia entre describir lo observado e inferir sobre una población;
+- definición operacional de una métrica;
+- sesgo de selección y límites de causalidad.
 
 ## Idea central
+
 ```text
-pregunta → población/muestra → variable → tipo → resumen correcto
+pregunta → población/muestra → variable → tipo → resumen adecuado → interpretación
 ```
 
-## Mini reto
-Clasifica las columnas del ejemplo y decide qué gráfica usarías para cada una.
+El ejemplo de entregas es sintético para que podamos concentrarnos en la lógica sin depender todavía de un dataset externo.
+
+## Material adicional
+
+- [NIST/SEMATECH Engineering Statistics Handbook](https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook)
+- [OpenIntro Statistics](https://www.openintro.org/book/os/)
+- [Pandas descriptive statistics](https://pandas.pydata.org/docs/user_guide/basics.html#descriptive-statistics)
+
+## Términos clave
+
+**población · muestra · variable · parámetro · estadístico · sesgo de selección · descriptiva · inferencia**
 
 ## Sigue con
+
 [02 · Centro, dispersión y relaciones](./02_Medidas_Descriptivas_y_Relaciones.md)
