@@ -1,16 +1,20 @@
 # 📘 Guías · Análisis Estadístico de Datos
 
-Usa esta carpeta como índice conceptual del módulo.
+Usa esta carpeta como índice conceptual del módulo revisado.
 
 | Guía | Enfoque |
 |---|---|
-| [Fundamentos](./01_Fundamentos_Analisis_Estadistico.md) | Datos, población, muestra y tipos de variables |
-| [Medidas principales](./02_Medidas_Principales.md) | Centro, dispersión, forma y relación |
-| [Distribuciones](./03_Distribuciones_Probabilidad.md) | Variables aleatorias, PMF/PDF y normal |
-| [Hipótesis](./04_Pruebas_Hipotesis.md) | H₀/H₁, estadístico y p-value |
-| [Monte Carlo](./05_MonteCarlo.md) | Incertidumbre mediante simulación repetida |
-| [Web scraping y APIs](./06_WebScraping_APIs.md) | Obtención y procesamiento de información externa |
+| [Fundamentos](./01_Fundamentos_Analisis_Estadistico.md) | Pregunta, población, muestra y tipos de variables |
+| [Centro, dispersión y relaciones](./02_Medidas_Principales.md) | Centro, variabilidad, outliers, forma y correlación |
+| [Distribuciones](./03_Distribuciones_Probabilidad.md) | Variables aleatorias, PMF/PDF, CDF y modelos de probabilidad |
+| [Hipótesis](./04_Pruebas_Hipotesis.md) | H₀/H₁, p-value, tamaño de efecto e intervalos |
+| [Monte Carlo](./05_MonteCarlo.md) | Escenarios, convergencia, múltiples seeds y estabilidad |
+| [Web scraping y APIs](./06_WebScraping_APIs.md) | Puente de adquisición y validación de información externa |
 
-> Las secciones “Conexiones aplicadas” agregan contextos posibles para practicar. Cuando una idea no está implementada en la notebook original se presenta explícitamente como extensión.
+El estándar del bloque es:
+
+```text
+pregunta → intuición → ejemplo → código → interpretación → error útil → mini reto → referencias → qué sigue
+```
 
 ⬅️ [Volver al módulo](../README.md)
