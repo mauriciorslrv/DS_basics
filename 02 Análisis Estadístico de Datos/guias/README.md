@@ -13,6 +13,6 @@ Usa esta carpeta como **mapa conceptual** y como puerta de entrada a material co
 
 > **Cómo usarlo:** mapa en la guía → práctica en la notebook → interpretación/mini reto → referencia externa si quieres profundizar.
 
-> El recorrido principal permanece compacto; el material complementario enlazado permite recuperar teoría y términos sin convertir las notebooks en un catálogo de fórmulas.
+> Durante la revisión del PR, las notebooks viven en `content/statistics-module-rework`; sus botones de Colab apuntan a esa rama para abrir la versión nueva. Antes del merge final se cambiarán a `main`.
 
 ⬅️ [Volver al módulo](../README.md)
