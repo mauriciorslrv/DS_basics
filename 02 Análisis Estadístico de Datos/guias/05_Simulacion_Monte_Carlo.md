@@ -46,6 +46,11 @@ Varias seeds no corrigen sesgo de datos ni un modelo mal planteado.
 - [NumPy Generator](https://numpy.org/doc/stable/reference/random/generator.html)
 - [NumPy SeedSequence](https://numpy.org/doc/stable/reference/random/bit_generators/generated/numpy.random.SeedSequence.html)
 - [SciPy Statistics](https://docs.scipy.org/doc/scipy/tutorial/stats.html)
+- [NIST/SEMATECH Engineering Statistics Handbook](https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook)
+
+## Términos clave
+
+**escenario · simulación · seed · stream aleatorio · convergencia · error Monte Carlo · percentil · riesgo · sensibilidad**
 
 ## Sigue con
 
