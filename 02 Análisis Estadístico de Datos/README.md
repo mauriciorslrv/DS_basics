@@ -2,8 +2,6 @@
 
 > **Propósito:** pasar de “tengo datos” a “puedo describir variabilidad, modelar incertidumbre, contrastar ideas, proyectar escenarios y apoyar decisiones”.
 
-> **Estado de revisión:** la versión nueva vive actualmente en la rama `content/statistics-module-rework`. Mientras el PR esté abierto, los botones de Colab de las notebooks apuntan a esa rama para que puedas ejecutar **la versión nueva**. Antes del merge final se cambiarán esos enlaces a `main`.
-
 El bloque está diseñado como una progresión continua, no como un catálogo de fórmulas:
 
 ```text
