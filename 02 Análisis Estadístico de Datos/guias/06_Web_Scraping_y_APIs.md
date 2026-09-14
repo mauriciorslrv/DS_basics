@@ -48,6 +48,10 @@ El sitio usado es un sandbox educativo. Sus precios y ratings son ficticios, por
 - [MDN HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 - [Books to Scrape](https://books.toscrape.com/)
 
+## Términos clave
+
+**HTTP · status code · HTML · selector CSS · parser · paginación · JSON · API · rate limit · robots.txt**
+
 ## Continúa
 
 Después del módulo, sigue [03 · Aprendizaje Máquina](../../03%20Aprendizaje%20Máquina/README.md).
