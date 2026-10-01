@@ -1,27 +1,29 @@
 # 03 · Preparar datos para ML
 
-> **En una frase:** aprender a definir predictores y objetivo y evitar fuga de información antes de entrenar.
+> **En una frase:** definir predictores y objetivo antes de modelar y evitar fuga de información.
 
 📓 [Abrir notebook](../notebooks/03_Preparar_Datos_para_ML.ipynb)
 
-## Caso y conceptos
+## Caso y origen
 
-Usamos alquileres horarios de Capital Bikeshare (UCI Bike Sharing). Cada fila es una hora y el objetivo es el total de alquileres. Se inspeccionan tipos, faltantes, duplicados y distribuciones; se identifica que los conteos casuales y registrados suman el objetivo y deben excluirse.
+Usamos **UCI Bike Sharing**, con registros horarios de Capital Bikeshare en Washington, D. C. Cada fila representa una hora y el objetivo **cnt** es el total de alquileres. Los conteos **casual** y **registered** son partes de ese total, así que se excluyen. **instant** es un identificador y **dteday** se conserva para ordenar la partición temporal, no para predecir.
 
-La partición es cronológica: entrenar con fechas anteriores y reservar las más recientes como prueba. Imputación, escalado y one-hot se ajustan dentro de un pipeline para evitar que el test influya en las transformaciones.
+## Qué se practica
+
+Inspeccionamos tipos, faltantes, duplicados y distribuciones; identificamos fuga; reservamos las fechas recientes como prueba; y ajustamos imputación, escalado y codificación dentro de un pipeline. Se explica que las variables válidas dependen de qué información estaría disponible al pronosticar. Por ejemplo, el clima observado en la hora quizá deba reemplazarse por un pronóstico disponible antes.
 
 ## Al terminar podrás
 
 - explicar qué representan X e y;
-- reconocer columnas que causan leakage;
-- hacer una partición temporal;
-- construir un pipeline de preprocesamiento;
-- explicar por qué disponibilidad de predictores depende del momento de uso.
+- justificar la inclusión o exclusión de columnas;
+- reconocer fuga directa y temporal;
+- hacer una partición cronológica;
+- explicar por qué el preprocesamiento se ajusta sólo con entrenamiento.
 
 ## Mini reto
 
-Mueve el corte a 70 % y 90 %. Describe cómo cambia el periodo de prueba y qué información necesitarías para estimar demanda antes de conocer el clima observado.
+Mueve el corte a 70 % y 90 %. Describe cómo cambia el periodo de prueba. Plantea un escenario con clima pronosticado y otro sin información meteorológica: ¿qué columnas usarías en cada uno y por qué?
 
 ## Fuente
 
-UCI Bike Sharing, CC BY 4.0, DOI 10.24432/C5W894. [Ficha y atribución](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset).
+Fanaee-T, H. & Gama, J. (2013). UCI Bike Sharing, CC BY 4.0, DOI 10.24432/C5W894. [Ficha, variables y atribución](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset).
