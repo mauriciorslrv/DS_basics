@@ -1,51 +1,45 @@
 # 02 · Del perceptrón a las redes neuronales
 
-> **En una frase:** introducir no linealidad y capas ocultas para resolver patrones que una sola frontera lineal no puede representar.
+> **En una frase:** introducir activaciones suaves y capas ocultas para comprender cómo se amplía la capacidad de un modelo.
 
-📓 [Abrir notebook](../Introduccion_Perceptron_P2.ipynb)
+📓 [Abrir notebook](../notebooks/Introduccion_Perceptron_P2.ipynb)
 
 ## 🧭 Punto de partida
 
-La notebook retoma la limitación del perceptrón y pregunta: **¿por qué una sola neurona no es suficiente?**
+La notebook retoma Iris y las tablas lógicas de la Parte 1. Pregunta: **¿qué cambia al modificar la función de activación, la cantidad de características y la implementación?**
 
-La función escalón produce una decisión abrupta y no ofrece una transición gradual. La notebook introduce la **sigmoide**:
+Iris contiene mediciones de flores —longitud y ancho de sépalo y pétalo— junto con la especie. El experimento de dos características usa una pareja concreta para poder dibujar la frontera; los de cuatro características usan toda la medición disponible para comparar su efecto. Setosa frente a versicolor funciona como contraste relativamente sencillo, mientras versicolor frente a virginica tiene más solapamiento y permite observar errores. La selección de variables está ligada a cada pregunta visual/comparativa, no es una regla universal.
 
-`σ(z) = 1 / (1 + e⁻ᶻ)`
-
-con valores entre 0 y 1 y una forma diferenciable.
+XOR vuelve a aparecer como una tabla lógica construida con cuatro combinaciones. Se conserva porque exhibe con claridad que una frontera lineal no basta.
 
 ## 🧠 El salto conceptual
 
-Después aparece una arquitectura multicapa:
+La función escalón produce una decisión abrupta. La sigmoide
 
-```text
-ENTRADAS
-   ↓
-CAPA OCULTA
-   ↓
-SALIDA
-```
+`σ(z) = 1 / (1 + e⁻ᶻ)`
 
-La idea central es que las neuronas ocultas pueden aprender representaciones intermedias y que la salida combina esas representaciones. XOR vuelve a ser útil: aquello que no podía resolverse con una sola frontera puede motivar una composición de fronteras y transformaciones.
+produce valores entre 0 y 1 y es diferenciable, lo que permite estudiar actualizaciones basadas en gradientes. Una capa oculta introduce representaciones intermedias; este contenido sirve como transición conceptual y no equivale a entrenar una red profunda en producción.
+
+## 🔬 Cómo leer los experimentos
+
+Las corridas con distintas semillas ayudan a separar una observación estable de un resultado que depende de una partición o inicialización concreta. La comparación con scikit-learn contrasta una implementación didáctica con una API mantenida y más robusta. Revisa qué cambió entre experimentos antes de atribuir una diferencia al algoritmo.
 
 ## 🌍 Qué representa esto fuera del ejemplo
 
-La importancia no es “usar una red porque es más avanzada”. Es entender que **más capacidad permite modelar relaciones no lineales**, pero también introduce más parámetros, decisiones de arquitectura y riesgo de sobreajuste.
-
-Esta última reflexión es una conexión pedagógica para la expansión del módulo; la notebook actual se concentra en construir la transición conceptual.
+Más capacidad puede representar relaciones no lineales, pero aumenta parámetros y decisiones y puede sobreajustar. Conviene añadir complejidad cuando una limitación observable del modelo simple lo justifica.
 
 ## ✅ Al terminar deberías poder explicar
 
-- por qué la función escalón limita ciertos procesos de aprendizaje;
-- qué aporta una activación sigmoide;
-- qué papel juega una capa oculta;
-- por qué XOR es una demostración tan útil;
-- por qué aumentar complejidad debe responder a una limitación observable.
+- por qué la función escalón limita ciertos métodos de aprendizaje;
+- qué aporta una activación diferenciable;
+- qué cambia al usar dos o cuatro características;
+- por qué una clase con más solapamiento produce más errores;
+- por qué XOR motiva, pero no por sí solo valida, una red multicapa.
 
 ## 🧪 Mini reto
 
-Dibuja una red con 2 entradas, 2 neuronas ocultas y 1 salida. Sin calcular pesos todavía, describe qué información podría aprender cada neurona oculta para ayudar a resolver XOR.
+Elige un par distinto de especies y compara una corrida con dos variables frente a cuatro. Registra el mismo protocolo y explica por qué cambió la dificultad. Para XOR, dibuja dos neuronas ocultas y describe qué regiones podrían separar.
 
-## 🚀 Próxima evolución
+## 🚀 Qué sigue
 
-Las siguientes notebooks del módulo podrán conectar esta base con evaluación de modelos, algoritmos clásicos, pipelines y proyectos completos. Esos temas están en el roadmap, **no se presentan aquí como contenido ya implementado**.
+Las notebooks 03–06 continúan con preparación de datos, regresión, clasificación y evaluación en datasets públicos reales.
