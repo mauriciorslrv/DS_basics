@@ -41,7 +41,7 @@ Estas cuatro notebooks completan un ciclo supervisado inicial. Los datos se desc
 ### Fuentes y decisiones importantes
 
 - [UCI Bike Sharing](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), CC BY 4.0, DOI 10.24432/C5W894. Se excluyen **casual** y **registered**, componentes que revelan el objetivo **cnt**.
-- [UCI Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing), CC BY 4.0, DOI 10.24432/C5K306. Se excluye **duration** porque sólo se conoce tras la llamada.
+- [UCI Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing), CC BY 4.0, DOI 10.24432/C5K306. Se excluyen **duration** (posterior a la llamada) y **campaign** (conteo agregado al cierre de campaña).
 - Cada notebook conserva atribución, fuente y limitaciones. Los ejemplos predictivos no se presentan como evidencia causal.
 
 ## Después de este primer ciclo
