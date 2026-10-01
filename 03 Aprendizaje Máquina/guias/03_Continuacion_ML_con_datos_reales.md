@@ -35,7 +35,7 @@ Ambos datasets declaran licencia **CC BY 4.0**. Cada notebook conserva fuente, a
 ### Bank Marketing · notebooks 05 y 06
 
 - El escenario de clasificación ocurre antes de llamar.
-- **duration** se excluye porque se conoce al terminar la llamada y filtraría información posterior.
+- **duration** se excluye porque se conoce al terminar la llamada; **campaign** se excluye porque resume el total de contactos de la campaña. Ninguna es una entrada segura para anticipar el contacto.
 - Se inspecciona el desbalance y se compara con baseline.
 - **pdays=999** significa ausencia de contacto previo, no 999 días normales; se crea una bandera y se prepara el valor por separado.
 - Validación cruzada se usa dentro de entrenamiento; el umbral se selecciona en validación y el test queda reservado para la evaluación final.
