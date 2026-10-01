@@ -2,55 +2,53 @@
 
 > **Estado:** 🚧 **EN EXPANSIÓN**
 
-Este módulo introduce aprendizaje máquina desde una idea deliberadamente simple: **el perceptrón**. El objetivo no es saltar directamente a modelos complejos, sino entender qué significa aprender una frontera de decisión, dónde falla un modelo lineal y por qué aparecen capas y activaciones no lineales. La siguiente etapa conecta esos conceptos con datos públicos del mundo real y un ciclo supervisado reproducible.
+El módulo parte del perceptrón para entender fronteras de decisión y luego conecta sus conceptos con aprendizaje supervisado y datos públicos del mundo real.
 
-## 📍 Contenido implementado
+## Contenido implementado
 
 ### Parte I · Perceptrón
 📓 [Introducción al perceptrón](./Introduccion_Perceptron.ipynb)
 
-- neurona/perceptrón y combinación lineal;
-- pesos, bias y función escalón;
-- aprendizaje y ajuste de pesos;
-- operadores AND y OR;
+- combinación lineal, pesos, bias y función escalón;
+- aprendizaje con operadores AND y OR;
 - XOR como límite de separabilidad lineal;
-- clasificación binaria;
-- ejemplo con Iris setosa vs. versicolor usando longitud de sépalo y pétalo;
-- estandarización, train/test, accuracy y frontera de decisión;
-- exploración de learning rate y semillas aleatorias.
+- clasificación de Iris setosa vs. versicolor;
+- estandarización, train/test, accuracy, frontera de decisión y semillas.
 
-➡️ [Guía resumida](./guias/01_Perceptron.md)
+➡️ [Guía del perceptrón](./guias/01_Perceptron.md)
 
 ### Parte II · Del perceptrón a redes neuronales
 📓 [Del perceptrón a redes neuronales](./Introduccion_Perceptron_P2.ipynb)
 
 - limitaciones de la función escalón;
-- función sigmoide;
-- idea de representación gradual y derivabilidad;
-- arquitectura entrada → capa oculta → salida;
-- cómo una capa oculta permite construir representaciones intermedias;
+- sigmoide y representación gradual;
+- capa oculta y representaciones intermedias;
 - XOR como motivación conceptual para redes multicapa.
 
-➡️ [Guía resumida](./guias/02_Del_Perceptron_a_Redes_Neuronales.md)
+➡️ [Guía de redes neuronales](./guias/02_Del_Perceptron_a_Redes_Neuronales.md)
 
-## 🌍 Continuación propuesta · ML con datos reales
+## Continuación · ML con datos reales
 
-La continuación se organiza como un primer ciclo supervisado con datasets públicos, preguntas contextualizadas y resultados calculados al ejecutar. La propuesta está documentada; las notebooks nuevas se incorporarán por etapas y se marcarán como implementadas sólo cuando existan.
+Estas cuatro notebooks completan un ciclo supervisado inicial. Los datos se descargan de UCI al ejecutar; no se incluyen copias locales ni ejemplos de filas dummy.
 
-1. **03 · Preparar datos para ML** — UCI Bike Sharing: definir X/y, inspeccionar datos, evitar fuga de información y hacer una partición cronológica.
-2. **04 · Regresión: demanda de bicicletas** — el mismo dataset: comparar baseline y regresor; interpretar MAE, RMSE, R² y residuos.
-3. **05 · Clasificación: Bank Marketing** — campaña bancaria portuguesa: predecir suscripción con datos disponibles antes de llamar, sin usar la duración de la llamada.
-4. **06 · Evaluar modelos de clasificación** — comparación con validación, clases desbalanceadas, precision/recall, umbral y conjunto test reservado.
+| Notebook | Enfoque y datos |
+|---|---|
+| 03 · [Preparar datos para ML](./notebooks/03_Preparar_Datos_para_ML.ipynb) | UCI Bike Sharing: X/y, inspección, leakage, partición cronológica y pipelines. [Guía](./guias/03_Preparar_Datos_para_ML.md) |
+| 04 · [Regresión: demanda de bicicletas](./notebooks/04_Regresion_Demanda_Bicicletas.ipynb) | El mismo dataset: baseline, regresión, MAE/RMSE/R² y análisis de errores. [Guía](./guias/04_Regresion_Demanda_Bicicletas.md) |
+| 05 · [Clasificación: Bank Marketing](./notebooks/05_Clasificacion_Bank_Marketing.ipynb) | Campañas telefónicas bancarias: clasificación sí/no, probabilidades y umbrales. [Guía](./guias/05_Clasificacion_Bank_Marketing.md) |
+| 06 · [Evaluación de modelos](./notebooks/06_Evaluacion_Modelos_Bank_Marketing.ipynb) | Validación, clases desbalanceadas, métricas, comparación de modelos y test reservado. [Guía](./guias/06_Evaluacion_Modelos_Bank_Marketing.md) |
 
-Bike Sharing y Bank Marketing son datasets reales de UCI con licencia CC BY 4.0. Se incluirán las fuentes, atribución y DOI. Los archivos de datos no se guardarán en el repositorio; se obtendrán explícitamente desde UCI al ejecutar las notebooks.
+### Fuentes y decisiones importantes
 
-➡️ [Plan detallado, dataset, decisiones y salvaguardas](./guias/03_Continuacion_ML_con_datos_reales.md)
+- [UCI Bike Sharing](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), CC BY 4.0, DOI 10.24432/C5W894. Se excluyen **casual** y **registered**, componentes que revelan el objetivo **cnt**.
+- [UCI Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing), CC BY 4.0, DOI 10.24432/C5K306. Se excluye **duration** porque sólo se conoce tras la llamada.
+- Cada notebook conserva atribución, fuente y limitaciones. Los ejemplos predictivos no se presentan como evidencia causal.
 
-## 🗺️ Después de este primer ciclo
+## Después de este primer ciclo
 
-Una vez completas las cuatro notebooks, el módulo podrá ampliarse con árboles de decisión y ensembles, aprendizaje no supervisado, selección de características e interpretabilidad, y proyectos end-to-end. Son etapas futuras y no deben confundirse con contenido ya implementado.
+La siguiente expansión podrá incluir árboles y ensembles más profundos, aprendizaje no supervisado, interpretabilidad y proyectos end-to-end. Se incorporarán cuando exista material didáctico y evaluable.
 
-## 🎯 Principio del módulo
+## Principio del módulo
 
 ```text
 modelo simple
@@ -59,9 +57,9 @@ entender qué aprende
     ↓
 entender dónde falla
     ↓
-añadir complejidad sólo cuando resuelve una limitación real
+añadir complejidad cuando resuelve una limitación real
 ```
 
-Cada algoritmo debe responder primero **qué problema resuelve y qué supuestos introduce**. Los datos reales sirven para practicar decisiones y límites, no para presentar un modelo como una solución automática o causal.
+Cada algoritmo responde primero qué problema resuelve y qué supuestos introduce. Los resultados numéricos se calculan al ejecutar; se interpretan en contexto y no se presentan como universales.
 
 📚 [Índice de guías](./guias/README.md)
