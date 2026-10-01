@@ -25,3 +25,5 @@ Evalúa una política de contacto para el 10 % con mayor puntuación y compáral
 ## Fuente
 
 UCI Bank Marketing, CC BY 4.0, DOI 10.24432/C5K306. [Ficha y atribución](https://archive.ics.uci.edu/dataset/222/bank+marketing).
+
+**Prevención de leakage:** duration se conoce al terminar la llamada; campaign resume el total de contactos de la campaña. Ambos campos se excluyen de una predicción previa al contacto.
