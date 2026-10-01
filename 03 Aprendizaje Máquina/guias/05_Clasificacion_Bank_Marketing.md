@@ -6,7 +6,7 @@
 
 ## Caso y conceptos
 
-El dataset UCI Bank Marketing describe campañas telefónicas de un banco portugués. La etiqueta indica si hubo suscripción. Se explora el desbalance de clases, se excluye duration porque sólo se conoce al terminar la llamada y se interpreta pdays=999 como ausencia de contacto previo.
+El dataset UCI Bank Marketing describe campañas telefónicas de un banco portugués. La etiqueta indica si hubo suscripción. Se explora el desbalance de clases, se excluyen duration y campaign: una ocurre después de la llamada y la otra resume los contactos totales de la campaña y se interpreta pdays=999 como ausencia de contacto previo.
 
 El pipeline separa variables numéricas y categóricas. Se compara regresión logística con un baseline y se examina cómo los umbrales modifican precision, recall y F1.
 
