@@ -2,10 +2,16 @@
 
 > **Estado:** nueva ruta práctica, enfocada en decisiones. No presupone herramientas comerciales de pago.
 
+## Dashboard publicado
+
+[Probar el dashboard interactivo en Streamlit](https://dsbasics-dbshzxqrgyz64tknfthamr.streamlit.app/)
+
+Explora los filtros por mercado, producto y segmento, compara indicadores y revisa la concentración de clientes. Los datos son sintéticos y se utilizan exclusivamente con fines de aprendizaje.
+
 ## Ruta de aprendizaje
 1. [BI desde cero — preguntas, indicadores y dashboard](./notebooks/01_BI_desde_cero.ipynb): dataset del módulo 00, cálculo de métricas, visualización, validación y narrativa.
 2. [Proyecto largo — segmentación comercial y escenarios](./notebooks/02_Proyecto_integrador.ipynb): ETL, calidad, cohortes sencillas, concentración comercial y sensibilidad de márgenes.
-3. [Dashboard interactivo de Streamlit](./streamlit_app/app.py): filtros por país, producto y cliente, KPIs y gráficos.
+3. [Dashboard interactivo de Streamlit](./streamlit_app/app.py): filtros por país, producto y segmento, KPIs y gráficos. [Ver demostración en línea](https://dsbasics-dbshzxqrgyz64tknfthamr.streamlit.app/).
 4. [Guía de un proyecto completo](./proyectos/caso_integrador.md): del problema de negocio a una recomendación auditada.
 
 ## Herramientas
@@ -30,4 +36,4 @@ streamlit run "04 Business Intelligence y Proyectos/streamlit_app/app.py"
 
 [BI desde cero](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/04%20Business%20Intelligence%20y%20Proyectos/notebooks/01_BI_desde_cero.ipynb) · [Proyecto integrador](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/04%20Business%20Intelligence%20y%20Proyectos/notebooks/02_Proyecto_integrador.ipynb)
 
-El dashboard Streamlit se ejecuta localmente desde el repositorio; en Colab se ejecutan las notebooks.
+La aplicación Streamlit puede ejecutarse localmente o [probarse en línea](https://dsbasics-dbshzxqrgyz64tknfthamr.streamlit.app/); en Colab se ejecutan las notebooks.
