@@ -25,3 +25,9 @@ streamlit run "04 Business Intelligence y Proyectos/streamlit_app/app.py"
 - Los datos del ejercicio son sintéticos, no registros de un cliente real.
 - Un dashboard comunica hallazgos, pero no prueba causalidad.
 - BI debe responder una pregunta y motivar una decisión, no solo mostrar gráficos.
+
+## Abrir notebooks en Colab
+
+[BI desde cero](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/04%20Business%20Intelligence%20y%20Proyectos/notebooks/01_BI_desde_cero.ipynb) · [Proyecto integrador](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/04%20Business%20Intelligence%20y%20Proyectos/notebooks/02_Proyecto_integrador.ipynb)
+
+El dashboard Streamlit se ejecuta localmente desde el repositorio; en Colab se ejecutan las notebooks.

@@ -1,4 +1,4 @@
-"""Dashboard educativo AELITYX - 04 BI. Ejecutar con: streamlit run app.py desde cualquier directorio."""
+"""Dashboard educativo - 04 BI. Ejecutar con: streamlit run app.py desde cualquier directorio."""
 from pathlib import Path
 import pandas as pd
 import streamlit as st
@@ -15,8 +15,8 @@ def leer():
     df['costo_variable']=df.unidades*df.costo_unitario
     df['margen_bruto']=df.ingreso-df.costo_variable
     return df
-st.set_page_config(page_title='AELITYX | BI aplicado',layout='wide')
-st.title('AELITYX · BI aplicado')
+st.set_page_config(page_title='Datos | BI aplicado',layout='wide')
+st.title('Datos · BI aplicado')
 st.caption('Ejercicio educativo | datos sintéticos | el margen bruto excluye gastos fijos, fletes y aranceles')
 df=leer()
 paises=st.sidebar.multiselect('Mercados',sorted(df.pais.unique()),default=sorted(df.pais.unique()))

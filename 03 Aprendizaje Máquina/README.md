@@ -41,3 +41,12 @@ añadir complejidad cuando resuelve una limitación real
 Cada algoritmo responde primero qué problema resuelve y qué supuestos introduce. Los resultados numéricos se calculan al ejecutar, se interpretan en contexto y no se presentan como universales.
 
 📚 [Índice de guías](./guias/README.md)
+
+## Abrir las notebooks en Google Colab
+
+1. [Introduccion Perceptron](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/Introduccion_Perceptron.ipynb)
+2. [Introduccion Perceptron P2](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/Introduccion_Perceptron_P2.ipynb)
+3. [03 Preparar Datos para ML](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/03_Preparar_Datos_para_ML.ipynb)
+4. [04 Regresion Demanda Bicicletas](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/04_Regresion_Demanda_Bicicletas.ipynb)
+5. [05 Clasificacion Bank Marketing](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/05_Clasificacion_Bank_Marketing.ipynb)
+6. [06 Evaluacion Modelos Bank Marketing](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/06_Evaluacion_Modelos_Bank_Marketing.ipynb)
