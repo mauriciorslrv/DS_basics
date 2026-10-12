@@ -2,52 +2,31 @@
 
 > **Estado:** 🚧 **EN EXPANSIÓN**
 
-Este módulo introduce aprendizaje máquina desde una idea deliberadamente simple: **el perceptrón**. El objetivo no es saltar directamente a modelos complejos, sino entender qué significa aprender una frontera de decisión, dónde falla un modelo lineal y por qué aparecen capas y activaciones no lineales.
+El módulo parte del perceptrón para entender fronteras de decisión y conecta esos conceptos con aprendizaje supervisado y datos públicos del mundo real. Las seis notebooks ejecutables están reunidas en [notebooks/](./notebooks/); las guías de lectura están en [guias/](./guias/).
 
-## 📍 Contenido actual
+## Ruta de aprendizaje
 
-### Parte I · Perceptrón
-📓 `Introduccion_Perceptron.ipynb`
+| # | Notebook | Qué trabajamos |
+|---|---|---|
+| 01 | [Introducción al perceptrón](./notebooks/Introduccion_Perceptron.ipynb) | Pesos, bias, frontera lineal, AND/OR/XOR e Iris. [Guía](./guias/01_Perceptron.md) |
+| 02 | [Del perceptrón a redes neuronales](./notebooks/Introduccion_Perceptron_P2.ipynb) | Sigmoide, experimentos con Iris, límites lineales y conexión conceptual con redes. [Guía](./guias/02_Del_Perceptron_a_Redes_Neuronales.md) |
+| 03 | [Preparar datos para ML](./notebooks/03_Preparar_Datos_para_ML.ipynb) | UCI Bike Sharing: X/y, inspección, fuga de información, partición cronológica y pipelines. [Guía](./guias/03_Preparar_Datos_para_ML.md) |
+| 04 | [Regresión: demanda de bicicletas](./notebooks/04_Regresion_Demanda_Bicicletas.ipynb) | Baseline, regresión, MAE/RMSE/R² y análisis de errores con Bike Sharing. [Guía](./guias/04_Regresion_Demanda_Bicicletas.md) |
+| 05 | [Clasificación: Bank Marketing](./notebooks/05_Clasificacion_Bank_Marketing.ipynb) | Campañas bancarias: clasificación sí/no, probabilidades y umbrales. [Guía](./guias/05_Clasificacion_Bank_Marketing.md) |
+| 06 | [Evaluación de modelos](./notebooks/06_Evaluacion_Modelos_Bank_Marketing.ipynb) | Validación, clases desbalanceadas, métricas, comparación de modelos y test reservado. [Guía](./guias/06_Evaluacion_Modelos_Bank_Marketing.md) |
 
-- neurona/perceptrón y combinación lineal;
-- pesos, bias y función escalón;
-- aprendizaje y ajuste de pesos;
-- operadores AND y OR;
-- XOR como límite de separabilidad lineal;
-- clasificación binaria;
-- ejemplo con **Iris setosa vs. versicolor** usando longitud de sépalo y pétalo;
-- estandarización, train/test, accuracy y frontera de decisión;
-- exploración de learning rate y semillas aleatorias.
+## Fuentes y decisiones importantes
 
-➡️ [Guía resumida](./guias/01_Perceptron.md)
+- [UCI Bike Sharing](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), CC BY 4.0, DOI 10.24432/C5W894. Se excluyen **casual** y **registered**, componentes que revelan **cnt**; la fecha ordena la partición y el identificador no aporta una señal generalizable.
+- [UCI Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing), CC BY 4.0, DOI 10.24432/C5K306. Se excluyen **duration** (se conoce al terminar la llamada) y **campaign** (resumen de contactos realizados durante la campaña), porque el escenario pregunta a quién contactar antes de llamar.
+- Iris se carga desde scikit-learn y se usa para estudiar separabilidad; las variables visibles se eligen según el experimento y se explican en las notebooks.
+- Los datos públicos se descargan al ejecutar; no se incluyen copias locales ni filas ficticias. Las predicciones no se presentan como evidencia causal.
 
-### Parte II · Del perceptrón a redes neuronales
-📓 `Introduccion_Perceptron_P2.ipynb`
+## Después de este primer ciclo
 
-- limitaciones de la función escalón;
-- función sigmoide;
-- idea de representación gradual y derivabilidad;
-- arquitectura entrada → capa oculta → salida;
-- cómo una capa oculta permite construir representaciones intermedias;
-- XOR como motivación conceptual para redes multicapa.
+La siguiente expansión podrá incluir árboles y ensembles más profundos, aprendizaje no supervisado, interpretabilidad y proyectos end-to-end. Se incorporarán cuando exista material didáctico y evaluable.
 
-➡️ [Guía resumida](./guias/02_Del_Perceptron_a_Redes_Neuronales.md)
-
-## 🗺️ Ruta de expansión
-
-La siguiente etapa del módulo se irá construyendo con ejemplos prácticos y notebooks independientes. Los temas propuestos —**todavía no deben interpretarse como contenido ya implementado**— son:
-
-1. preparación de datos y prevención de leakage;
-2. regresión y clasificación con modelos clásicos;
-3. métricas y evaluación más allá de accuracy;
-4. árboles y métodos ensemble;
-5. pipelines y preprocesamiento;
-6. selección/reducción de características;
-7. interpretabilidad;
-8. proyectos end-to-end con datos reales;
-9. profundización gradual en redes neuronales.
-
-## 🎯 Principio del módulo
+## Principio del módulo
 
 ```text
 modelo simple
@@ -56,9 +35,9 @@ entender qué aprende
     ↓
 entender dónde falla
     ↓
-añadir complejidad sólo cuando resuelve una limitación real
+añadir complejidad cuando resuelve una limitación real
 ```
 
-La intención es que cada algoritmo nuevo responda primero **qué problema resuelve y qué supuestos introduce**.
+Cada algoritmo responde primero qué problema resuelve y qué supuestos introduce. Los resultados numéricos se calculan al ejecutar, se interpretan en contexto y no se presentan como universales.
 
 📚 [Índice de guías](./guias/README.md)
