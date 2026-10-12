@@ -20,8 +20,7 @@ El repositorio está organizado como una ruta progresiva. Cada módulo contiene 
 | 🐍 01 · Programación en Python | Desde cero hasta NumPy, Pandas y visualización con una ruta guiada de seis notebooks | [Ver módulo](./01%20Programación%20en%20Python/README.md) |
 | 📊 02 · Análisis Estadístico de Datos | Estadística descriptiva, probabilidad, hipótesis, Monte Carlo y obtención de datos | [Ver módulo](./02%20Análisis%20Estadístico%20de%20Datos/README.md) |
 | 🧠 03 · Aprendizaje Máquina | Del perceptrón a preparación de datos, regresión, clasificación y evaluación | [Ver módulo](./03%20Aprendizaje%20Máquina/README.md) |
-
-| 📈 04 · BI y proyectos | Dashboards, Streamlit y ejercicios integradores | [Ver módulo](./04%20Business%20Intelligence%20y%20Proyectos/README.md) |
+| 📈 04 · BI y proyectos | Dashboards, Streamlit y ejercicios integradores | [Ver módulo](./04%20Business%20Intelligence%20y%20Proyectos/README.md) · [Demo](https://dsbasics-dbshzxqrgyz64tknfthamr.streamlit.app/) |
 
 ---
 
