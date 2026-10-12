@@ -1,47 +1,69 @@
 <div align="center">
+  <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Python and Data Science Banner" width="100%" />
 
-# AELITYX · DS Basics
-
-**Excel · SQL · Python · Estadística · Machine Learning · Business Intelligence**
-
-Aprender desde cero construyendo herramientas, experimentos y decisiones sustentadas en datos.
-
+  <h2>Fundamentals of Data Science</h2>
+  <p><strong>Python · Estadística · Machine Learning · práctica con notebooks</strong></p>
+  <p>Una colección de materiales para aprender haciendo: entender el concepto, ejecutar el código, modificarlo y conectarlo con problemas reales.</p>
 </div>
-
-## Ruta de aprendizaje
-
-| Módulo | Qué aprenderás | Material |
-|---|---|---|
-| 00 · Excel y SQL | Calidad de datos, consultas relacionales, PostgreSQL y casos de negocio | [Entrar](./00%20Fundamentos%20de%20Datos%20-%20Excel%20y%20SQL/README.md) |
-| 01 · Programación en Python | Fundamentos, NumPy, pandas y visualización | [Entrar](./01%20Programación%20en%20Python/README.md) |
-| 02 · Estadística de datos | Exploración, inferencia, simulación e interpretación | [Entrar](./02%20Análisis%20Estadístico%20de%20Datos/README.md) |
-| 03 · Aprendizaje Máquina | Perceptrón, preparación de datos reales, regresión, clasificación y evaluación | [Entrar](./03%20Aprendizaje%20Máquina/README.md) |
-| 04 · Business Intelligence | Indicadores, Streamlit, dashboards y proyectos integradores desde cero | [Entrar](./04%20Business%20Intelligence%20y%20Proyectos/README.md) |
-
-## Cómo estudiar
-
-1. Lee el README y la guía de cada módulo.
-2. Ejecuta la notebook en orden, modifica parámetros y repite experimentos.
-3. Completa los retos; compara resultados entre herramientas.
-4. Explica el dato, sus limitaciones y **qué decisión justificaría**.
-
-## Requisitos rápidos
-
-- Python 3.10+ y Jupyter (o un entorno equivalente) para notebooks.
-- Excel o un editor compatible para ejercicios de hojas de cálculo.
-- PostgreSQL para el caso SQL completo (los primeros ejercicios también usan SQLite sin instalación adicional).
-- Streamlit para el dashboard opcional de BI: `python -m pip install -r "04 Business Intelligence y Proyectos/requirements.txt"`.
-
-Los notebooks de módulos 00 y 04 usan **datos sintéticos** incluidos en el repositorio. Los notebooks del módulo 03 utilizan datasets académicos públicos identificados en sus guías y descargados durante la ejecución cuando corresponde.
-
-## Integridad y reproducibilidad
-
-El objetivo no es solo generar gráficos o una cifra atractiva. Incluye fuentes, supuestos, calidad, validaciones, riesgos, limitaciones y conclusiones. Los ejemplos sintéticos no son evidencia histórica de clientes reales.
-
-## Inspiración y créditos
-
-La ruta SQL se apoya conceptualmente en la documentación de PostgreSQL y el material educativo abierto [Hello SQL de MoureDev](https://github.com/mouredev/hello-sql). Los ejercicios, datasets sintéticos y materiales nuevos de módulos 00 y 04 se han redactado para este repositorio, no como copia del curso de referencia.
 
 ---
 
-**AELITYX · Explora, aprende, crea y cuestiona.**
+## 🧭 ¿Qué encontrarás aquí?
+
+El repositorio está organizado como una ruta progresiva. Cada módulo contiene notebooks y guías en Markdown que resumen qué se estudia, por qué importa y dónde puede aparecer en un problema real.
+
+> Las guías acompañan a las notebooks; no las sustituyen. La idea es que puedas orientarte rápido y después experimentar directamente con el código.
+
+| Módulo | Enfoque | Empieza aquí |
+|---|---|---|
+| 📚 00 · Excel y SQL | Hojas de cálculo, PostgreSQL, consultas y casos aplicados | [Ver módulo](./00%20Fundamentos%20de%20Datos%20-%20Excel%20y%20SQL/README.md) |
+| 🐍 01 · Programación en Python | Desde cero hasta NumPy, Pandas y visualización con una ruta guiada de seis notebooks | [Ver módulo](./01%20Programación%20en%20Python/README.md) |
+| 📊 02 · Análisis Estadístico de Datos | Estadística descriptiva, probabilidad, hipótesis, Monte Carlo y obtención de datos | [Ver módulo](./02%20Análisis%20Estadístico%20de%20Datos/README.md) |
+| 🧠 03 · Aprendizaje Máquina | Del perceptrón a preparación de datos, regresión, clasificación y evaluación | [Ver módulo](./03%20Aprendizaje%20Máquina/README.md) |
+
+| 📈 04 · BI y proyectos | Dashboards, Streamlit y ejercicios integradores | [Ver módulo](./04%20Business%20Intelligence%20y%20Proyectos/README.md) |
+
+---
+
+## 🔁 Cómo usar este material
+
+1. **Lee la guía** del subtema para obtener el mapa general.
+2. **Abre la notebook** y ejecuta las celdas en orden.
+3. **Modifica valores y ejemplos**; evita usar la notebook como una receta cerrada.
+4. **Haz el mini reto** sugerido en el material.
+5. Pregúntate: **¿qué decisión o problema real podría resolver con esto?**
+
+```text
+concepto → notebook → experimento → interpretación → aplicación
+```
+
+---
+
+## 🧩 Filosofía del repositorio
+
+El objetivo no es memorizar sintaxis ni acumular algoritmos. Es desarrollar una forma de trabajo:
+
+- formular mejores preguntas;
+- ordenar información;
+- analizar con criterio;
+- comunicar lo encontrado;
+- construir soluciones reproducibles;
+- reconocer las limitaciones de los datos y de los modelos.
+
+Los ejemplos aplicados que aparecen en las guías son **conexiones pedagógicas**: sirven para imaginar usos posibles sin afirmar que cada caso esté implementado dentro de la notebook.
+
+---
+
+## 🚧 En evolución
+
+El módulo de **Aprendizaje Máquina** está deliberadamente en construcción. La ruta ya reúne seis notebooks: perceptrón, redes neuronales, preparación de datos, regresión, clasificación y evaluación de modelos. Seguiremos ampliando los ejercicios con criterio y sin sacrificar claridad.
+
+---
+
+## 🛠️ Requisitos
+
+Las notebooks utilizan Python 3 y librerías comunes del ecosistema científico. Puedes trabajar localmente con Jupyter o utilizar Google Colab cuando sea conveniente. No es necesario dominar todos los temas antes de comenzar: el repositorio también funciona como material de consulta y práctica.
+
+---
+
+<p align="center"><strong>Aprender datos es aprender a convertir preguntas en evidencia.</strong></p>

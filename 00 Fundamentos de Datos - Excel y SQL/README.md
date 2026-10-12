@@ -1,6 +1,6 @@
 # Módulo 00 · Fundamentos de datos: Excel y SQL
 
-> **Estado:** primera versión ejecutable. Ruta desde cero, enfoque AELITYX: preguntas → datos → análisis → decisiones.
+> **Estado:** en desarrollo · ruta desde cero: preguntas → datos → análisis → decisiones.
 
 ## Qué aprenderás
 - Excel: tablas, filtros, funciones, tablas dinámicas, calidad y transformación de datos.
@@ -17,7 +17,7 @@
 Los archivos CSV de `datos/` contienen **información sintética** de una comercializadora ficticia de hierbas aromáticas (72 operaciones, 6 clientes, 4 productos). Los datos no representan ventas o resultados históricos de una empresa real.
 
 ## Entorno
-Excel o LibreOffice Calc para la práctica en hoja de cálculo; Python 3 + pandas para notebooks y PostgreSQL 14+ instalado por cuenta propia para los scripts SQL. No necesitas Docker.
+Excel o LibreOffice Calc para la práctica en hoja de cálculo; Python 3 + pandas para notebooks y PostgreSQL 14+ instalado por cuenta propia para los scripts SQL. 
 
 ## Excel, ejercicios extensos
 1. Importa `datos/ventas.csv` como tabla estructurada y valida tipos/fechas.
@@ -27,5 +27,24 @@ Excel o LibreOffice Calc para la práctica en hoja de cálculo; Python 3 + panda
 5. Simula incremento de insumos 10 %, descuento comercial 5 % y transporte 7 % adicional; compara escenarios sin mezclar ingreso y utilidad.
 6. Entrega un resumen ejecutivo con supuestos, métricas y una decisión justificable.
 
-## Criterio AELITYX
-No basta con que una fórmula sea correcta: explica *qué decisión sería prudente*, cuál es la incertidumbre y qué datos faltan. Da crédito al material complementario de [MoureDev - Hello SQL](https://github.com/mouredev/hello-sql) (fuente de estudio; ejercicios de este módulo originales).
+## Para interpretar los resultados
+No basta con que una fórmula sea correcta: explica *qué decisión sería prudente*, cuál es la incertidumbre y qué datos faltan.
+
+
+## Consultas SQL: cómo verlas y ejecutarlas
+
+- [SQL 01: crear tablas y cargar datos](./sql/01_modelo_y_datos_postgresql.sql). Puedes **leer todas las instrucciones SQL directamente en GitHub** y ejecutarlas en pgAdmin o psql usando PostgreSQL.
+- [SQL 02: consultas y retos](./sql/02_consultas_y_retos.sql). Incluye `SELECT`, filtros, `GROUP BY`, `JOIN`, funciones de ventana y preguntas para resolver.
+- [Notebook de SQL en Colab](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/00%20Fundamentos%20de%20Datos%20-%20Excel%20y%20SQL/notebooks/02_SQL_desde_cero.ipynb) permite **ejecutar consultas básicas** mediante SQLite en memoria sin configurar PostgreSQL. **No es exactamente el mismo motor**: para el módulo completo usa PostgreSQL.
+- Localmente puedes ejecutar la notebook con Jupyter; la descarga de datos de ejemplo también funciona en Colab.
+
+### PostgreSQL local
+
+1. Instala PostgreSQL y crea una base de datos de pruebas desde pgAdmin o psql.
+2. Abre [01_modelo_y_datos_postgresql.sql](./sql/01_modelo_y_datos_postgresql.sql) y ejecútalo contra esa base.
+3. Abre [02_consultas_y_retos.sql](./sql/02_consultas_y_retos.sql) y ejecuta cada consulta para observar resultados.
+4. Documenta qué preguntaste, qué obtuviste y cuál es la limitación del dato.
+
+### Abrir notebooks en Colab
+
+[Excel y calidad de datos](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/00%20Fundamentos%20de%20Datos%20-%20Excel%20y%20SQL/notebooks/01_Excel_y_calidad_de_datos.ipynb) · [SQL desde cero](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/00%20Fundamentos%20de%20Datos%20-%20Excel%20y%20SQL/notebooks/02_SQL_desde_cero.ipynb)
