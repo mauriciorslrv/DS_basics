@@ -1,0 +1,31 @@
+# Módulo 00 · Fundamentos de datos: Excel y SQL
+
+> **Estado:** primera versión ejecutable. Ruta desde cero, enfoque AELITYX: preguntas → datos → análisis → decisiones.
+
+## Qué aprenderás
+- Excel: tablas, filtros, funciones, tablas dinámicas, calidad y transformación de datos.
+- SQL con PostgreSQL: SELECT, WHERE, GROUP BY, JOIN, relaciones, CTE, ventanas y vistas.
+- Cómo pasar de hojas de cálculo a un modelo de datos y conectar después Python y BI.
+
+## Orden sugerido
+1. [00 - Preparación y diagnóstico en Excel con pandas como verificación](./notebooks/01_Excel_y_calidad_de_datos.ipynb). El ejercicio de Excel incluye instrucciones manuales; Python **verifica** resultados, no sustituye Excel.
+2. [01 - Consultas SQL aplicadas al negocio](./notebooks/02_SQL_desde_cero.ipynb). Se ejecuta en Python contra SQLite **solo para primeros pasos**; para PostgreSQL sigue los scripts SQL.
+3. [Modelo PostgreSQL y datos](./sql/01_modelo_y_datos_postgresql.sql) y [consultas analíticas](./sql/02_consultas_y_retos.sql).
+4. [Proyecto guiado de caso comercial](./proyectos/README.md).
+
+## Dataset
+Los archivos CSV de `datos/` contienen **información sintética** de una comercializadora ficticia de hierbas aromáticas (72 operaciones, 6 clientes, 4 productos). Los datos no representan ventas o resultados históricos de una empresa real.
+
+## Entorno
+Excel o LibreOffice Calc para la práctica en hoja de cálculo; Python 3 + pandas para notebooks y PostgreSQL 14+ instalado por cuenta propia para los scripts SQL. No necesitas Docker.
+
+## Excel, ejercicios extensos
+1. Importa `datos/ventas.csv` como tabla estructurada y valida tipos/fechas.
+2. Importa clientes/productos; relaciona mediante BUSCARX o Power Query (o BUSCARV en versiones antiguas).
+3. Calcula ingresos = unidades × precio, costo variable = unidades × costo y margen = ingresos − costo.
+4. Construye tablas dinámicas por país, producto, mes y cliente; grafica tendencias.
+5. Simula incremento de insumos 10 %, descuento comercial 5 % y transporte 7 % adicional; compara escenarios sin mezclar ingreso y utilidad.
+6. Entrega un resumen ejecutivo con supuestos, métricas y una decisión justificable.
+
+## Criterio AELITYX
+No basta con que una fórmula sea correcta: explica *qué decisión sería prudente*, cuál es la incertidumbre y qué datos faltan. Da crédito al material complementario de [MoureDev - Hello SQL](https://github.com/mouredev/hello-sql) (fuente de estudio; ejercicios de este módulo originales).
