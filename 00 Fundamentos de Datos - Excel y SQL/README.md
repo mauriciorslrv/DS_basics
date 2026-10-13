@@ -7,6 +7,21 @@
 - SQL con PostgreSQL: SELECT, WHERE, GROUP BY, JOIN, relaciones, CTE, ventanas y vistas.
 - Cómo pasar de hojas de cálculo a un modelo de datos y conectar después Python y BI.
 
+## Empieza aquí si nunca has utilizado SQL
+
+**No comiences con CTE ni funciones de ventana.** La ruta inicial explica qué es una tabla y avanza por SELECT, filtros, ordenamiento, agrupación, JOIN y modificaciones seguras, con ejercicios y soluciones.
+
+📖 [**SQL desde cero · ocho lecciones breves y ejercicios comentados**](./sql/00_introduccion/README.md)
+
+```sql
+-- ¿Qué clientes viven en México?
+SELECT nombre, pais
+FROM practica_sql.clientes
+WHERE pais = 'MX';
+```
+
+Para ejecutar ese ejemplo, primero corre el [script de datos pequeños](./sql/00_introduccion/00_datos_de_practica.sql) en PostgreSQL. Más adelante puedes pasar al caso de 72 ventas y a las consultas avanzadas que ya existen.
+
 ## Orden sugerido
 1. [00 - Preparación y diagnóstico en Excel con pandas como verificación](./notebooks/01_Excel_y_calidad_de_datos.ipynb). El ejercicio de Excel incluye instrucciones manuales; Python **verifica** resultados, no sustituye Excel.
 2. [01 - Consultas SQL aplicadas al negocio](./notebooks/02_SQL_desde_cero.ipynb). Se ejecuta en Python contra SQLite **solo para primeros pasos**; para PostgreSQL sigue los scripts SQL.

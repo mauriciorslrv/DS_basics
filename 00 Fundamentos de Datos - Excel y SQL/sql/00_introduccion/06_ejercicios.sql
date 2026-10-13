@@ -1,0 +1,13 @@
+-- RETOS DEL MÓDULO INICIAL · Resuélvelos antes de abrir 07_soluciones.sql.
+-- 1. Devuelve los nombres de todos los clientes.
+-- 2. Muestra solo los productos de precio superior a 26.
+-- 3. Enumera sin repeticiones los países de clientes.
+-- 4. Obtén los dos productos más caros.
+-- 5. Cuenta cuántas ventas existen.
+-- 6. Suma las unidades vendidas.
+-- 7. ¿Cuántas unidades se vendieron por producto_id?
+-- 8. Lista venta, cliente y producto (nombres) con JOIN.
+-- 9. ¿Cuál es el ingreso de cada venta? (cantidad * precio).
+-- 10. ¿Qué cliente tiene más ventas y cuánto suma su ingreso?
+-- EXTRA: qué clientes no tienen compras; usa LEFT JOIN.
+-- REFLEXIÓN: ¿ingresos de ventas te dicen cuánto ganó el negocio?

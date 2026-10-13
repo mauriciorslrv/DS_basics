@@ -25,6 +25,27 @@ El repositorio está organizado como una ruta progresiva. Cada módulo contiene 
 
 ---
 
+
+## 🗺️ Ruta visual · infografías
+
+Ocho láminas que acompañan el material escrito: una explicación gráfica del recorrido, los cinco módulos, el proyecto integrador y las preguntas frecuentes. Las vistas de abajo son **resúmenes vectoriales para GitHub**; para ver y editar los diseños completos, abre [la presentación en Canva](https://www.canva.com/d/cGwC58JWPPaLXpQ).
+
+| [![Ruta general](./assets/infografias/slide_01.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) | [![Excel y SQL](./assets/infografias/slide_02.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) |
+| **01 · Ruta general** · [Roadmap](#-qué-encontrarás-aquí)  | **02 · Excel y SQL** · [Módulo 00](./00%20Fundamentos%20de%20Datos%20-%20Excel%20y%20SQL/README.md)  |
+
+| [![Python](./assets/infografias/slide_03.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) | [![Estadística](./assets/infografias/slide_04.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) |
+| **03 · Python** · [Módulo 01](./01%20Programación%20en%20Python/README.md)  | **04 · Estadística** · [Módulo 02](./02%20Análisis%20Estadístico%20de%20Datos/README.md)  |
+
+| [![Aprendizaje Máquina](./assets/infografias/slide_05.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) | [![BI y Streamlit](./assets/infografias/slide_06.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) |
+| **05 · Aprendizaje Máquina** · [Módulo 03](./03%20Aprendizaje%20Máquina/README.md)  | **06 · BI y Streamlit** · [Módulo 04](./04%20Business%20Intelligence%20y%20Proyectos/README.md)  |
+
+| [![Proyecto integrador](./assets/infografias/slide_07.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) | [![Preguntas frecuentes](./assets/infografias/slide_08.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) |
+| **07 · Proyecto integrador** · [Proyecto](./04%20Business%20Intelligence%20y%20Proyectos/proyectos/caso_integrador.md)  | **08 · Preguntas frecuentes** · [Guía de uso](#-cómo-usar-este-material)  |
+
+> La presentación Canva es editable; las ocho ilustraciones SVG son miniaturas estables y ligeras, compatibles con el README de GitHub.
+
+---
+
 ## 🔁 Cómo usar este material
 
 1. **Lee la guía** del subtema para obtener el mapa general.
