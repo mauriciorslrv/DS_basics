@@ -22,6 +22,32 @@ WHERE pais = 'MX';
 
 Para ejecutar ese ejemplo, primero corre el [script de datos pequeños](./sql/00_introduccion/00_datos_de_practica.sql) en PostgreSQL. Más adelante puedes pasar al caso de 72 ventas y a las consultas avanzadas que ya existen.
 
+## Ruta para avanzar sin saltos
+
+| Etapa | ¿Qué harás? | Dificultad |
+|---|---|---|
+| **A · Primer contacto** | [Leer qué hace cada query](./sql/README_SQL_DESDE_CERO.md) y ejecutar la [notebook 03 · Primeras Queries](./notebooks/03_Primeras_Queries_SQL.ipynb) | Desde cero |
+| **B · PostgreSQL local** | Seguir la [guía paso a paso para Windows](./sql/POSTGRESQL_LOCAL.md) y recorrer las ocho lecciones SQL | Básico |
+| **C · Caso completo en Excel** | Explorar la historia de una comercializadora ficticia: datos, clientes, productos y escenarios | Básico–intermedio |
+| **D · Análisis relacional** | Trabajar con el modelo PostgreSQL de 72 ventas y consultas con JOIN y agregaciones | Intermedio |
+| **E · Extensión avanzada** | Integrar Python, estadística, escenarios de logística y dashboards | Después de módulos 01 y 02 |
+
+**No necesitas comenzar por CTE, funciones de ventana o predicción.** La primera meta es comprender una tabla, escribir una pregunta y leer lo que la consulta devuelve.
+
+### Historia del ejercicio comercial
+
+Imagina una pequeña comercializadora ficticia que vende **albahaca, romero, menta y tomillo** a seis clientes simulados en México, Estados Unidos y Canadá. Tenemos 72 operaciones de ejemplo con fecha, cantidades, precios y costos variables.
+
+La persona responsable se pregunta: ¿qué vendimos?, ¿quién compra?, ¿qué producto aporta mayor margen bruto?, ¿qué podría cambiar si aumentan los insumos? Primero responderemos con hojas de cálculo y consultas sencillas; luego iremos a análisis más elaborado.
+
+No tenemos fletes, salarios, aranceles ni todos los costos fijos reales; por tanto, no podemos afirmar utilidad neta. Los datos son **sintéticos** y no describen una empresa real.
+
+### Libro de Excel narrativo
+
+El ejercicio se organiza por hojas: **cómo usarlo → historia del caso → datos → qué sucedió → clientes → productos → escenarios → conclusiones**. Incluye además guías de SQL y PostgreSQL. Un archivo complementario de expectativa de vida permite practicar calidad de datos con otro tema, sin mezclarlo con ventas.
+
+El libro se comparte como material descargable de apoyo; si todavía no aparece en GitHub, puedes realizar los ejercicios directamente con los CSV del módulo.
+
 ## Orden sugerido
 1. [00 - Preparación y diagnóstico en Excel con pandas como verificación](./notebooks/01_Excel_y_calidad_de_datos.ipynb). El ejercicio de Excel incluye instrucciones manuales; Python **verifica** resultados, no sustituye Excel.
 2. [01 - Consultas SQL aplicadas al negocio](./notebooks/02_SQL_desde_cero.ipynb). Se ejecuta en Python contra SQLite **solo para primeros pasos**; para PostgreSQL sigue los scripts SQL.
