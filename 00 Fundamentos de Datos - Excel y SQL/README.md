@@ -1,6 +1,6 @@
 # Módulo 00 · Fundamentos de datos: Excel y SQL
 
-> **Estado:** en desarrollo · ruta desde cero: preguntas → datos → análisis → decisiones.
+> **Ruta de aprendizaje:** preguntas → datos → análisis → decisiones.
 
 ## Qué aprenderás
 - Excel: tablas, filtros, funciones, tablas dinámicas, calidad y transformación de datos.
@@ -46,7 +46,7 @@ No tenemos fletes, salarios, aranceles ni todos los costos fijos reales; por tan
 
 El ejercicio se organiza por hojas: **cómo usarlo → historia del caso → datos → qué sucedió → clientes → productos → escenarios → conclusiones**. Incluye además guías de SQL y PostgreSQL. Un archivo complementario de expectativa de vida permite practicar calidad de datos con otro tema, sin mezclarlo con ventas.
 
-El libro se comparte como material descargable de apoyo; si todavía no aparece en GitHub, puedes realizar los ejercicios directamente con los CSV del módulo.
+El libro de trabajo complementa los ejercicios del módulo. Los datos originales para practicar se encuentran en la carpeta [`datos/`](./datos/).
 
 ## Orden sugerido
 1. [00 - Preparación y diagnóstico en Excel con pandas como verificación](./notebooks/01_Excel_y_calidad_de_datos.ipynb). El ejercicio de Excel incluye instrucciones manuales; Python **verifica** resultados, no sustituye Excel.
