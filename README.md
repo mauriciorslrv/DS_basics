@@ -2,8 +2,9 @@
   <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Python and Data Science Banner" width="100%" />
 
   <h2>Fundamentals of Data Science</h2>
-  <p><strong>Python · Estadística · Machine Learning · práctica con notebooks</strong></p>
-  <p>Una colección de materiales para aprender haciendo: entender el concepto, ejecutar el código, modificarlo y conectarlo con problemas reales.</p>
+  <p><strong>Excel · SQL · Bases de datos · Python · Estadística · Machine Learning · Business Intelligence</strong></p>
+  <p>Una colección de materiales para aprender haciendo: organizar y consultar datos, programar, analizar, construir modelos, visualizar resultados y conectarlos con problemas reales.</p>
+  <p><strong>Ruta de aprendizaje:</strong> Excel y SQL → Python → Estadística → Machine Learning → BI y proyectos integradores</p>
 </div>
 
 ---
