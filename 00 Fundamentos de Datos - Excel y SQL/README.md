@@ -42,11 +42,28 @@ La persona responsable se pregunta: ¿qué vendimos?, ¿quién compra?, ¿qué p
 
 No tenemos fletes, salarios, aranceles ni todos los costos fijos reales; por tanto, no podemos afirmar utilidad neta. Los datos son **sintéticos** y no describen una empresa real.
 
-### Libro de Excel narrativo
+### Libro de Excel narrativo · práctica guiada
 
-El ejercicio se organiza por hojas: **cómo usarlo → historia del caso → datos → qué sucedió → clientes → productos → escenarios → conclusiones**. Incluye además guías de SQL y PostgreSQL. Un archivo complementario de expectativa de vida permite practicar calidad de datos con otro tema, sin mezclarlo con ventas.
+Este libro complementa la ruta SQL con un caso ficticio de comercialización de hierbas aromáticas. El propósito es pasar de observar una tabla a formular preguntas, calcular indicadores, interpretar resultados y proponer decisiones. **No se necesitan conocimientos previos de Python** para recorrer las primeras hojas.
 
-El libro de trabajo complementa los ejercicios del módulo. Los datos originales para practicar se encuentran en la carpeta [`datos/`](./datos/).
+| Hoja | Contenido |
+|---|---|
+| **00 Cómo usarlo** | Recorrido y preguntas que guían la práctica. |
+| **01 Datos** | Registro de 72 ventas ficticias, precios, cantidades y costos; fórmulas por venta. |
+| **02 Qué pasó** | Indicadores de ventas, unidades, ingresos, costo variable y margen bruto. |
+| **03 Clientes** | Operaciones, ingresos, margen y participación por cliente. |
+| **04 Productos** | Volumen, ingresos y comparación de márgenes. |
+| **05 Escenarios** | Sensibilidad ante cambios en costos, descuentos y transporte. |
+| **06 Conclusiones** | Preguntas de reflexión y decisiones con sus limitaciones. |
+| **07 Vida (extra)** | Dataset independiente de expectativa de vida para explorar calidad de datos. |
+| **Caso · historia** | Contexto, objetivos, preguntas y supuestos del ejercicio comercial. |
+| **Aprender SQL** | Primera explicación de queries: seleccionar, filtrar, ordenar, agrupar y unir. |
+| **Instalar PostgreSQL** | Guía de instalación local, creación de base y primeras consultas. |
+| **Niveles y retos** | Progresión para principiantes y desafíos de análisis posteriores. |
+
+**Cómo aprovecharlo:** comienza por **Caso · historia** y **00 Cómo usarlo**, continúa con **01 Datos → 02 Qué pasó → 03 Clientes → 04 Productos → 05 Escenarios → 06 Conclusiones**. Las otras hojas funcionan como apoyo. Los resultados comerciales son sintéticos; el margen bruto no equivale a utilidad neta.
+
+**Archivo recomendado:** `ejercicios/DS_basics_Excel_Narrativo_v2.xlsx`. El libro se incorporará como descarga directa cuando el archivo binario esté publicado en esta carpeta del repositorio. Mientras tanto, los CSV originales siguen disponibles en [datos/](./datos/).
 
 ## Orden sugerido
 1. [00 - Preparación y diagnóstico en Excel con pandas como verificación](./notebooks/01_Excel_y_calidad_de_datos.ipynb). El ejercicio de Excel incluye instrucciones manuales; Python **verifica** resultados, no sustituye Excel.
