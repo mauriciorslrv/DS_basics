@@ -26,9 +26,9 @@ El repositorio está organizado como una ruta progresiva. Cada módulo contiene 
 ---
 
 
-## 🗺️ Ruta visual · infografías
+## 🗺️ Ruta visual
 
-Ocho láminas que acompañan el material escrito: una explicación gráfica del recorrido, los cinco módulos, el proyecto integrador y las preguntas frecuentes. Las vistas de abajo son **resúmenes vectoriales para GitHub**; para ver y editar los diseños completos, abre [la presentación en Canva](https://www.canva.com/d/cGwC58JWPPaLXpQ).
+Explora el recorrido completo y entra a cada módulo mediante sus imágenes y enlaces.
 
 | [![Ruta general](./assets/infografias/slide_01.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) | [![Excel y SQL](./assets/infografias/slide_02.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) |
 | **01 · Ruta general** · [Roadmap](#-qué-encontrarás-aquí)  | **02 · Excel y SQL** · [Módulo 00](./00%20Fundamentos%20de%20Datos%20-%20Excel%20y%20SQL/README.md)  |
@@ -41,8 +41,6 @@ Ocho láminas que acompañan el material escrito: una explicación gráfica del 
 
 | [![Proyecto integrador](./assets/infografias/slide_07.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) | [![Preguntas frecuentes](./assets/infografias/slide_08.svg)](https://www.canva.com/d/cGwC58JWPPaLXpQ) |
 | **07 · Proyecto integrador** · [Proyecto](./04%20Business%20Intelligence%20y%20Proyectos/proyectos/caso_integrador.md)  | **08 · Preguntas frecuentes** · [Guía de uso](#-cómo-usar-este-material)  |
-
-> La presentación Canva es editable; las ocho ilustraciones SVG son miniaturas estables y ligeras, compatibles con el README de GitHub.
 
 ---
 
