@@ -17,7 +17,7 @@
 Los archivos CSV de `datos/` contienen **información sintética** de una comercializadora ficticia de hierbas aromáticas (72 operaciones, 6 clientes, 4 productos). Los datos no representan ventas o resultados históricos de una empresa real.
 
 ## Entorno
-Excel o LibreOffice Calc para la práctica en hoja de cálculo; Python 3 + pandas para notebooks y PostgreSQL 14+ instalado por cuenta propia para los scripts SQL. 
+Excel o LibreOffice Calc para la práctica en hoja de cálculo; Python 3 con pandas para notebooks y PostgreSQL 14+ para los scripts SQL.
 
 ## Excel, ejercicios extensos
 1. Importa `datos/ventas.csv` como tabla estructurada y valida tipos/fechas.

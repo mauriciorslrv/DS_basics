@@ -44,9 +44,9 @@ Cada algoritmo responde primero qué problema resuelve y qué supuestos introduc
 
 ## Abrir las notebooks en Google Colab
 
-1. [Introduccion Perceptron](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/Introduccion_Perceptron.ipynb)
-2. [Introduccion Perceptron P2](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/Introduccion_Perceptron_P2.ipynb)
-3. [03 Preparar Datos para ML](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/03_Preparar_Datos_para_ML.ipynb)
-4. [04 Regresion Demanda Bicicletas](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/04_Regresion_Demanda_Bicicletas.ipynb)
-5. [05 Clasificacion Bank Marketing](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/05_Clasificacion_Bank_Marketing.ipynb)
-6. [06 Evaluacion Modelos Bank Marketing](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/06_Evaluacion_Modelos_Bank_Marketing.ipynb)
+1. [Introducción al perceptrón](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/Introduccion_Perceptron.ipynb)
+2. [Del perceptrón a redes neuronales](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/Introduccion_Perceptron_P2.ipynb)
+3. [Preparación de datos para ML](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/03_Preparar_Datos_para_ML.ipynb)
+4. [Regresión: demanda de bicicletas](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/04_Regresion_Demanda_Bicicletas.ipynb)
+5. [Clasificación: Bank Marketing](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/05_Clasificacion_Bank_Marketing.ipynb)
+6. [Evaluación de modelos: Bank Marketing](https://colab.research.google.com/github/mauriciorslrv/DS_basics/blob/main/03%20Aprendizaje%20M%C3%A1quina/notebooks/06_Evaluacion_Modelos_Bank_Marketing.ipynb)
